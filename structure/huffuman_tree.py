@@ -1,4 +1,5 @@
-#coding=utf-8
+# coding=utf-8
+
 
 class Node(object):
     def __init__(self, name, value, left=None, right=None):
@@ -10,11 +11,13 @@ class Node(object):
     def __str__(self):
         return 'name: %s, value:%s' % (self.name, self.value)
 
+
 class Huffman(object):
     def __init__(self, data):
-        '''
-        data: [(val1, count), (val2, count), .....]
-        '''
+        """
+        :param data: [(val1, count), (val2, count), .....]
+        """
+
         self.codes = {}
         if data:
             self.data = []
@@ -25,7 +28,7 @@ class Huffman(object):
     def __huffman_tree(self, data):
         self.__sort(data)
         n = len(data)
-        for i in xrange(n - 1, 0 , -1):
+        for i in xrange(n - 1, 0, -1):
             item1 = data[0]
             data[0] = data[i]
             self.__build(data, 0, i)
@@ -42,11 +45,9 @@ class Huffman(object):
         self.__to_code(root.left, path + '0')
         self.__to_code(root.right, path + '1')
 
-
-
     def __sort(self, data):
         n = len(data)
-        for i in xrange(n / 2, -1 , -1):
+        for i in xrange(n / 2, -1, -1):
             self.__build(data, i, n)
 
     def __build(self, data, i, n):
@@ -62,8 +63,7 @@ class Huffman(object):
             self.__build(data, min_i, n)
 
 
-
 if __name__ == '__main__':
-    char_weights=[('a',5),('b',4),('c',10),('d',8),('f',15),('g',2)]
+    char_weights = [('a', 5), ('b', 4), ('c', 10), ('d', 8), ('f', 15), ('g', 2)]
     huffman = Huffman(char_weights)
     print huffman.codes
