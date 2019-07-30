@@ -26,32 +26,46 @@ def tree_max_sum(tree):
     return global_max_v
 
 
-def max_sum(data):
+def max_sum(arr):
+    # sum[i] = max(sum[i-1] + arr[i], arr[i])
+    # res = max(sum)
     s = 0
     max_s = sys.maxint * -1
-    for item in data:
-        if s > 0:
-            s += item
-        else:
-            s = item
+    for item in arr:
+        s = max(s, 0) + item
         max_s = max(s, max_s)
     return max_s
 
 
-def max_sum_subset(data):
-    if not data:
+def max_sum_subset(arr):
+    if not arr:
         return None
-    n = len(data)
+    n = len(arr)
     dp = [0] * n
-    dp[0] = data[0]
+    dp[0] = arr[0]
     if n == 1:
         return dp[0]
-    dp[1] = max(data[0], data[1])
+    dp[1] = max(arr[0], arr[1])
     if n == 2:
         return dp[1]
-    for i in range(2, len(data)):
-        dp[i] = max(data[i], dp[i - 1], dp[i - 2] + data[i])
+    for i in range(2, n):
+        dp[i] = max(arr[i], dp[i - 1], dp[i - 2] + arr[i])
     return dp[-1]
+
+
+def max_multi(arr):
+    # max_v[i] = max(max_v[i-1] * arr[i], min_v[i-1], arr[i])
+    # min_v[i] = min(max_v[i-1] * arr[i], min_v[i-1], arr[i])
+    max_v = 1
+    min_v = 1
+
+    max_res = sys.maxint * -1
+    for item in arr:
+        max_tmp = max_v
+        max_v = max(max_v * item, min_v * item, item)
+        min_v = min(max_tmp * item, min_v * item, item)
+        max_res = max(max_v, max_res)
+    return max_res
 
 
 print max_sum_subset([10, 6, 3, 8])
