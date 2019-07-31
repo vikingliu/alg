@@ -58,13 +58,11 @@ class AVLTree:
         return self.__is_balanced(node.left) and self.__is_balanced(node.right)
 
     def add(self, val):
-        return self.__add(self.root, val)
+        node = self.__add(self.root, val)
+        if self.root is None:
+            self.root = node
 
     def __add(self, node, val):
-        if self.root is None:
-            self.root = TreeNode(val)
-            return self.root
-
         if node is None:
             return TreeNode(val)
 

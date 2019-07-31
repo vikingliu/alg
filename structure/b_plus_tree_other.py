@@ -59,6 +59,11 @@ class Node(object):
             else:
                 self.keys.remove(key)
                 self.children.remove(child)
+                if child.pre:
+                    child.pre.next = child.next
+                if child.next:
+                    child.next.pre = child.pre
+                del child
 
         return self.keys[0] if self.keys else None
 
@@ -81,6 +86,7 @@ class Node(object):
                 else:
                     self.children.remove(right)
                     self.keys.remove(self.keys[index])
+                    del right
 
     def merge(self, left, right):
         if left.is_leaf() and right.is_leaf():
@@ -120,7 +126,7 @@ class Node(object):
         else:
             if self.next:
                 self.next.pre = right_child
-                right_child.next = self.next
+            right_child.next = self.next
             right_child.pre = self
             self.next = right_child
 
@@ -191,8 +197,10 @@ class BPlusTree(object):
             self.root = self.root.children[0]
             del tmp
         if not self.head.keys:
+            tmp = self.head
             self.head = self.head.next
             self.head.pre = None
+            del tmp
 
     def _delete(self, node, key):
         if node is None:
