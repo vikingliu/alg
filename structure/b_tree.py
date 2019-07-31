@@ -2,11 +2,12 @@
 
 
 # B-Tree，或者B减树
-
-# 1、根结点至少有两个孩子；
-# 2、每个非根节点所包含的关键字个数 j 满足：m/2 - 1 <= j <= m - 1；
-# 3、除根结点以外的所有结点（不包括叶子结点）的度数正好是关键字总数加1，故内部子树个数 k 满足：┌m/2┐ <= k <= m ；
-# 4、所有的叶子结点都位于同一层。
+# 一个 m 阶的B树是(m >= 3)
+# 1.每一个节点最多有 m 个子节点
+# 2.每一个非叶子节点（除根节点）最少有 ⌈m/2⌉ 个子节点， 孩子节点>=2
+# 3.如果根节点不是叶子节点，那么它至少有两个子节点
+# 4.有 k 个子节点的非叶子节点拥有 k − 1 个键
+# 5.所有的叶子节点都在同一层
 class Node(object):
     def __init__(self, key=None, m=2):
         self.keys = []
@@ -25,14 +26,16 @@ class Node(object):
         # 二分查找
         for i, item in enumerate(self.keys):
             if key <= item:
-                return i, self.children[i]
-        return len(self.keys) - 1, self.children[-1]
+                child = self.children[i] if self.children else None
+                return i, child
+        child = self.children[-1] if self.children else None
+        return len(self.keys) - 1, child
 
     def add_key(self, key, child=None):
         index = 0
         for i, item in enumerate(self.keys):
             index = i
-            if key < item:
+            if key <= item:
                 break
             index = i + 1
         self.keys.insert(index, key)
@@ -65,13 +68,12 @@ class Node(object):
 
         p_key, p_ref = self.merge(left.children[-1], right.children[0])
         if p_key:
-            left.keys += [p_key] + right.keys
+            left.keys.append(p_key)
             right.children[0] = p_ref
-            left.children += right.children
         else:
-            left.keys += right.keys
             right.children.remove(right.children[0])
-            left.children = left.children + right.children
+        left.keys += right.keys
+        left.children += right.children
 
         return left.split()
 
@@ -159,22 +161,27 @@ class BTree(object):
         else:
             index, child = node.get_child(key)
             self._delete(child, key)
-            for child in [node.children[index], node.children[index + 1]]:
-                # min keys = m/2 - 1
-                if len(child.keys) < self.m / 2 - 1:
-                    key = node.keys[index]
-                    # add key to the child
-                    self._add(child, key)
-                    # remove the key from node
-                    node.remove(key, index=index)
-                    break
+            if node.children:
+                for child in [node.children[index], node.children[index + 1]]:
+                    # min keys = m/2 - 1
+                    if (child.children and len(child.keys) < self.m / 2 - 1) or len(child.keys) == 0:
+                        key = node.keys[index]
+                        # add key to the child
+                        self._add(child, key)
+                        # remove the key from node
+                        node.remove(key, index=index)
+                        break
 
 
 if __name__ == '__main__':
-    tree = BTree(4)
+    tree = BTree(6)
     s = '6 6 6 6 6 10 4 14 5 11 15 3 2 12 1 7 8 8 6 3 6 21 5 15 15 6 32 23 45 65 7 8 6 5 4'
     for i in s.split(' '):
         tree.add(int(i))
+    # tree.add(3)
+    print tree.root
+    tree.delete(11)
+    tree.delete(10)
     print tree.root
     # tree.add(1)
     # tree.add(3)

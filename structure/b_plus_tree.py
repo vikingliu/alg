@@ -1,7 +1,13 @@
 # coding=utf-8
 
 # B+树
-#
+# 一个 m 阶的B树是，m >= 3
+# 1.每一个节点最多有 m 个子节点
+# 2.每一个非叶子节点（除根节点）最少有 ⌈m/2⌉ 个子节点, 子节点数 >= 2
+# 3.如果根节点不是叶子节点，那么它至少有两个子节点
+# 4.有 k 个子节点的非叶子节点拥有 k − 1 个键
+# 5.所有的叶子节点都在同一层
+# 6.所有关键字都存在叶子节点中
 class Node(object):
     def __init__(self, key=None, m=2):
         self.keys = []
@@ -23,8 +29,10 @@ class Node(object):
         # 二分查找
         for i, item in enumerate(self.keys):
             if key < item:
-                return i, self.children[i]
-        return len(self.keys) - 1, self.children[-1]
+                child = self.children[i] if self.children else None
+                return i, child
+        child = self.children[-1] if self.children else None
+        return len(self.keys) - 1, child
 
     def add_key(self, key, child=None):
         index = 0
@@ -47,6 +55,7 @@ class Node(object):
             left = self.children[index]
             right = self.children[index + 1]
             p_key, p_ref = self.merge(left, right)
+            # merge new key
             if p_key:
                 self.keys[index] = p_key
                 self.children[index + 1] = p_ref
@@ -60,18 +69,18 @@ class Node(object):
             left.keys = left.keys + right.keys
             if right.next:
                 right.next.pre = left
-                left.next = right.next
+            left.next = right.next
             return left.split()
 
         p_key, p_ref = self.merge(left.children[-1], right.children[0])
         if p_key:
-            left.keys += [p_key] + right.keys
+            left.keys.append(p_key)
             right.children[0] = p_ref
-            left.children += right.children
         else:
-            left.keys += right.keys
+            # merge to left
             right.children.remove(right.children[0])
-            left.children = left.children + right.children
+        left.keys += right.keys
+        left.children += right.children
 
         return left.split()
 
@@ -79,7 +88,7 @@ class Node(object):
         # max keys = m - 1
         if len(self.keys) < self.m:
             return None, None
-        mid = len(self.keys) / 2 - 1
+        mid = len(self.keys) / 2
         key = self.keys[mid]
 
         # keep the left child
@@ -113,7 +122,6 @@ class BPlusTree(object):
         self.m = m
         self.unique = unique
         self.head = None
-        self.tail = None
 
     def get(self, key):
         if self.root is None:
@@ -135,8 +143,6 @@ class BPlusTree(object):
             self.root = Node(key=key, m=self.m)
             self.head = self.root
             self.head.pre = None
-            self.tail = self.root
-            self.tail.next = None
         else:
             p_key, p_ref = self._add(self.root, key)
             if p_key:
@@ -162,6 +168,9 @@ class BPlusTree(object):
         self._delete(self.root, key)
         if not self.root.keys:
             self.root = self.root.children[0]
+        if not self.head.keys:
+            self.head = self.head.next
+            self.head.pre = None
 
     def _delete(self, node, key):
         if node is None:
@@ -176,53 +185,112 @@ class BPlusTree(object):
         else:
             index, child = node.get_child(key)
             self._delete(child, key)
-            left = node.children[index]
-            right = node.children[index + 1]
-            for child in [left, right]:
-                # min keys = m/2 - 1
-                if len(child.keys) < self.m / 2 - 1:
-                    key = node.keys[index]
-                    # add key to the child
-                    if not child.is_leaf():
-                        self._add(child, key)
-                    # remove the key from node
-                    node.remove(key, index=index)
-                    break
+            if node.children:
+                left = node.children[index]
+                right = node.children[index + 1]
+                for child in [left, right]:
+                    # min keys = m/2 - 1
+                    if (child.children and len(child.keys) < self.m / 2 - 1) or len(child.keys) == 0:
+                        key = node.keys[index]
+                        # remove the key from node
+                        node.remove(key, index=index)
+                        break
 
 
 if __name__ == '__main__':
-    tree = BPlusTree(4)
-    # s = '6 10 4 14 5 11 15 3 2 12 1 7 8 8 6 3 6 21 5 15 15 6 32 23 45 65 7 8 6 5 4'
-    # for i in s.split(' '):
-    #     tree.add(int(i))
+    tree = BPlusTree(3)
+    s = '6 10 4 14 5 11 15 3 2 12 1 7 8 8 6 3 6 21 5 15 15 6 32 23 45 65 7 8 6 5 4 6 6 6 6 6 6 6 6 6 6'
+    for i in s.split(' '):
+        tree.add(int(i))
+    print tree.root
+    arr = [int(i) for i in s.split(' ')]
+    # tree.add(1)
+    # tree.add(3)
+    # tree.add(10)
+    # tree.add(11)
+    # tree.add(9)
+    # tree.add(6)
+    # tree.add(4)
+    # tree.add(-1)
+    # tree.add(20)
+    # tree.add(61)
+    # tree.add(62)
+    # tree.add(22)
+    # tree.add(5)
+    # tree.add(30)
+    # tree.add(31)
+    # tree.add(7)
+    # tree.add(8)
+    # print tree.root
+    # tree.delete(10)
+    # print tree.root
+    # tree.delete(1)
+    # tree.delete(-1)
+    # print tree.root
+    # tree.delete(20)
     # print tree.root
 
-    tree.add(1)
-    tree.add(3)
-    tree.add(10)
-    tree.add(11)
-    tree.add(9)
-    tree.add(6)
-    tree.add(4)
-    tree.add(-1)
-    tree.add(20)
-    tree.add(61)
-    tree.add(62)
-    tree.add(22)
-    tree.add(5)
-    tree.add(30)
-    tree.add(31)
-    tree.add(7)
-    tree.add(8)
-    print tree.root
-    tree.delete(10)
-    print tree.root
-    tree.delete(1)
-    tree.delete(-1)
-    print tree.root
-    tree.delete(20)
+    # tree.delete(6)
+    # arr.remove(6)
+    # tree.delete(4)
+    # arr.remove(4)
+    # tree.delete(5)
+    # arr.remove(5)
+    # tree.delete(1)
+    # arr.remove(1)
+    # tree.delete(2)
+    # arr.remove(2)
+    # tree.delete(3)
+    # arr.remove(3)
+    # tree.delete(3)
+    # arr.remove(3)
+    # tree.delete(4)
+    # arr.remove(4)
+    # tree.delete(10)
+    # arr.remove(10)
+    # tree.delete(11)
+    # arr.remove(11)
+    # tree.delete(12)
+    # arr.remove(12)
+    # tree.delete(5)
+    # arr.remove(5)
+    # tree.delete(5)
+    # arr.remove(5)
+    # tree.delete(6)
+    # arr.remove(6)
+    # tree.delete(6)
+    # arr.remove(6)
+    # tree.delete(6)
+    # arr.remove(6)
+    #
+    # tree.delete(6)
+    # arr.remove(6)
+    # tree.delete(6)
+    # arr.remove(6)
+    # tree.delete(7)
+    # arr.remove(7)
+    # tree.delete(7)
+    # arr.remove(7)
+    # tree.delete(8)
+    # arr.remove(8)
+    # tree.delete(8)
+    # arr.remove(8)
+    # tree.delete(8)
+    # arr.remove(8)
+    # tree.delete(8)
+    # # arr.remove(8)
+    # tree.delete(14)
+    # arr.remove(14)
+    # tree.delete(15)
+    # arr.remove(15)
+    # tree.delete(15)
+    # arr.remove(15)
     print tree.root
     head = tree.head
     while head:
-        print head
+        s = [str(key) for key in head.keys]
+        print ' '.join(s),
         head = head.next
+    print ''
+    arr = [str(i) for i in sorted(arr)]
+    print ' '.join(arr)
