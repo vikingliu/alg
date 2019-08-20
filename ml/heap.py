@@ -6,6 +6,7 @@ class Node:
     def __str__(self):
         return '%s, %s' % (self.value, self.obj)
 
+
 class Heap:
     def __init__(self, max_size, big=True, data=[]):
         self.max_size = max_size
@@ -38,7 +39,7 @@ class Heap:
 
     def adjust(self):
         n = len(self.data)
-        for i in range(n/2 - 1, -1, -1):
+        for i in range(n / 2 - 1, -1, -1):
             self._heap(self.data, i, n)
 
     def _heap(self, data, i, n):
@@ -55,7 +56,7 @@ class Heap:
                 target = left
             if right < n and data[right].value < data[target].value:
                 target = right
-        if target <> i:
+        if target != i:
             data[i], data[target] = data[target], data[i]
             self._heap(data, target, n)
 
@@ -64,5 +65,3 @@ class Heap:
         for item in self.data:
             rst.append('%s' % item)
         return str(rst)
-
-

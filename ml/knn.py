@@ -1,6 +1,7 @@
-#coding=utf-8
+# coding=utf-8
 import math
 from heap import Heap, Node
+
 
 class Tree:
     def __init__(self, dot, left, right):
@@ -10,6 +11,7 @@ class Tree:
 
     def __str__(self):
         return '%s' % self.dot
+
 
 def build_kd_tree(data, j=0):
     if not data:
@@ -26,12 +28,12 @@ def build_kd_tree(data, j=0):
     node = Tree(cur, left, right)
     return node
 
+
 def search(x, kd_tree, j=0):
     if kd_tree is None:
         return None
     k = len(kd_tree.dot)
     l = j % k + 1
-    other_node = None
     if x[l - 1] < kd_tree.dot[l - 1]:
         k_cur_node = search(x, kd_tree.left, j + 1)
         other_node = kd_tree.right
@@ -59,12 +61,12 @@ def search(x, kd_tree, j=0):
 
     return k_cur_node
 
+
 def search_k(x, kd_tree, k_node_heap, j=0):
     if kd_tree is None:
         return None
     k = len(kd_tree.dot)
     l = j % k + 1
-    other_node = None
     if x[l - 1] < kd_tree.dot[l - 1]:
         search_k(x, kd_tree.left, k_node_heap, j + 1)
         other_node = kd_tree.right
@@ -84,7 +86,8 @@ def search_k(x, kd_tree, k_node_heap, j=0):
         if other_distance < min_distance or not k_node_heap.is_full():
             search_k(x, other_node, k_node_heap, j + 1)
 
-def calEuclideanDistance(vec1,vec2):
+
+def calEuclideanDistance(vec1, vec2):
     if vec1 and vec2 and len(vec1) == len(vec2):
         sum = 0
         for i in range(len(vec1)):
@@ -92,14 +95,12 @@ def calEuclideanDistance(vec1,vec2):
         return math.sqrt(sum)
     return 0
 
+
 if __name__ == '__main__':
-    data = [[2,3], [5,4], [9,6], [4,7], [8,1], [7,2]]
+    data = [[2, 3], [5, 4], [9, 6], [4, 7], [8, 1], [7, 2]]
     kd_tree = build_kd_tree(data)
     x = [6, 2]
     print search(x, kd_tree)
     k_node_heap = Heap(4)
     search_k(x, kd_tree, k_node_heap)
     print k_node_heap
-
-
-
