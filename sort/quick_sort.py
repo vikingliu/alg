@@ -6,22 +6,20 @@ def quick_sort(data, start, end):
     quick_sort(data, start, p - 1)
     quick_sort(data, p + 1, end)
 
-
 def partition(data, start, end):
-    tmp = data[start]
-
+    index = data[start]
     while start < end:
-        while start < end and data[end] > tmp:
+        while start < end and data[end] >= index:
             end -= 1
-        if data[end] < tmp:
+        if start < end:
             data[start] = data[end]
             start += 1
-        while start < end and data[start] < tmp:
+        while start < end and data[start] < index:
             start += 1
-        if data[start] > tmp:
+        if start < end:
             data[end] = data[start]
             end -= 1
-    data[start] = tmp
+    data[start] = index
     return start
 
 

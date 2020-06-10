@@ -42,13 +42,17 @@ class Solution(object):
         for j in xrange(1, m + 1):
             for i in xrange(1, n + 1):
                 c = 0 if word1[i - 1] == word2[j - 1] else 1
-                dp_i1_j1 = dp[i - 1] + c
-                dp_i1_j = dp_ij if i > 1 else j
-                dp[i - 1] = dp_i1_j
+                # dp[i] == dp[i][j-1]
+                # dp[i-1] == dp[i-1][j-1]
+                # d_ij == dp[i-1][j]
+                dp_i_1_j_1 = dp[i - 1] + c
+                dp_i_1_j = dp_ij if i > 1 else j
+                # dp[i-1][j-1] for the next is dp[i-1][j]
+                dp[i - 1] = dp_i_1_j
 
-                # dp_ij = min(min(dp_i1_j, dp_i_j1) + 1, dp_i1_j1 + c)
-                dp_ij = dp_i1_j + 1 if dp_i1_j < dp[i] else dp[i] + 1
-                dp_ij = dp_ij if dp_ij < dp_i1_j1 else dp_i1_j1
+                #dp_ij = min(min(dp_i_1_j, dp_i_j1) + 1, dp_i_1_j_1 + c)
+                dp_ij = dp_i_1_j + 1 if dp_i_1_j < dp[i] else dp[i] + 1
+                dp_ij = dp_ij if dp_ij < dp_i_1_j_1 else dp_i_1_j_1
 
             dp[-1] = dp_ij
 

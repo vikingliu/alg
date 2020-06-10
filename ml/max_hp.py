@@ -16,7 +16,7 @@ def pw(x, y, fn, wn, Y):
 def ep(fi, pxy):
     """
     Ep'(f) = sum(p'(x,y) f(x,y))
-    :param f:
+    :param f:i
     :param x:
     :param y:
     :return:

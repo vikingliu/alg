@@ -29,7 +29,3 @@ def merge(data, start1, end1, start2, end2):
         data[start] = data_tmp[start - n]
         start += 1
 
-
-d = [5, 4]
-merge_sort(d, 0, len(d) - 1)
-print d

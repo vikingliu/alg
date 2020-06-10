@@ -1,14 +1,13 @@
 def heap_sort(data):
-    if data:
-        n = len(data)
-        for i in range(n / 2 - 1, -1, -1):
-            build(data, i, n)
-        for i in range(n):
-            last = n - i - 1
-            data[0], data[last] = data[last], data[0]
-            build(data, 0, last)
-
-    return data
+    if data is None or len(data) == 0:
+        return
+    n = len(data)
+    for i in range(n / 2 - 1, -1, -1):
+        build(data, i, n)
+    for i in range(n):
+        last = n - i - 1
+        data[0], data[last] = data[last], data[0]
+        build(data, 0, last)
 
 
 def build(data, i, n):
