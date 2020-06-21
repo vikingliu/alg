@@ -130,7 +130,7 @@ if __name__ == '__main__':
     DEBUG = True
 
     # 载入数据
-    Y = np.loadtxt("data/gmm.data")
+    Y = np.loadtxt("../data/gmm.data")
     matY = np.matrix(Y, copy=True)
 
     # 模型个数，即聚类的类别个数

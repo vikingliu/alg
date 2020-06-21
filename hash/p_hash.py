@@ -35,8 +35,8 @@ def hamming_dist(s1, s2):
     return sum([ch1 != ch2 for ch1, ch2 in zip(s1, s2)])
 
 if __name__ == '__main__':
-    HASH1=phash('11.png')
-    HASH2=phash('22.png')
+    HASH1=phash('../data/11.png')
+    HASH2=phash('../data/22.png')
     diff = hamming_dist(HASH1,HASH2)
     out_score = 1 - diff * 1.0 / (32*32/4)
     print  diff, out_score
