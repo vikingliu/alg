@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="2750676491594747"
+    token="-4223197489316493309" >
+
+    <task
+        name="javac"
+        duration="3490" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="783" />
+    <task
+        name="verifier"
+        duration="57" />
+
+    <artifact
+        location="/Users/viking/github/android-youtube-player/build/outputs/apk/android-youtube-player-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="2750676491594747" >
+        <artifact
+            location="/Users/viking/github/android-youtube-player/build/outputs/apk/android-youtube-player-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

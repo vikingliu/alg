@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/viking/github/android-youtube-player/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b866ffc357c6b3d176e6abf2944e564233579c8a">
+        <dex dex="/Users/viking/github/android-youtube-player/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ecccca6a99fcf770a5784652e1e38564553df656/classes.dex" />
+    </item>
+    <item
+        jar="/Users/viking/github/android-youtube-player/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="26a2302a58bb5a7f98177116fc90148c2264f011">
+        <dex dex="/Users/viking/github/android-youtube-player/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_58d9eb150e68a10aa0b410218a99b8a3d1be5be7/classes.dex" />
+    </item>
+
+</items>

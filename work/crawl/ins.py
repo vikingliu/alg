@@ -45,10 +45,9 @@ def crawl_tags(tags):
 
 def crawl_user_posts(userids):
     cookies = login()
-    if cookies:
-        for userid in userids:
-            url = 'https://i.instagram.com/api/v1/feed/user/%s/' % userid
-            print get_content(url, cookies)
+    for userid in userids:
+        url = 'https://i.instagram.com/api/v1/feed/user/%s/' % userid
+        print get_content(url, cookies)
 
 
 def get_content(url, cookies, max_page=1, callback_func=None):
