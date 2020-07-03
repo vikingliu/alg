@@ -1,3 +1,4 @@
+# coding=utf-8
 def merge_sort(data, start, end):
     if start >= end:
         return
@@ -28,4 +29,3 @@ def merge(data, start1, end1, start2, end2):
     while start <= end:
         data[start] = data_tmp[start - n]
         start += 1
-

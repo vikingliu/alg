@@ -1,7 +1,8 @@
-#coding=utf-8
+# coding=utf-8
 import bitmap
 
-class BloomFilter(object): 
+
+class BloomFilter(object):
     def __init__(self, size, functions):
         self.functions = functions
         self.bitset = bitmap.Bitmap(size)
@@ -17,13 +18,14 @@ class BloomFilter(object):
     def contains(self, value):
         if not value:
             return False
-        
+
         ret = True
         for f in functions:
-            ret = self.bitset.get(f.hash(value))           
+            ret = self.bitset.get(f.hash(value))
             if not ret:
                 break
         return ret
+
 
 class HashFunction(object):
     def __init__(self, size, seed):
@@ -34,7 +36,7 @@ class HashFunction(object):
         result = 0
         for c in value:
             result = seed * result + ord(c)
-        
+
         return (size - 1) & result
 
 
@@ -50,5 +52,3 @@ if __name__ == '__main__':
             bloomfilter.add(value)
         else:
             print 'find:%s' % value
-
-

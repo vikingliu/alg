@@ -78,7 +78,7 @@ def iis(fn, wn, pxy, pw):
     pass
 
 
-def f0(x, y, p_xy):
+def f0(x, y, p_xy=0):
     if type(x) == int and x > 2:
         return 1
     elif x == 'M':
@@ -86,7 +86,7 @@ def f0(x, y, p_xy):
     return 0
 
 
-def f1(x, y, p_xy):
+def f1(x, y, p_xy=0):
     if type(x) == int and x < 2:
         return 1
     elif x == 'S':

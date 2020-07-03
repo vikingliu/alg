@@ -24,7 +24,7 @@ def _hashfunc(x):
 class Simhash(object):
 
     def __init__(
-        self, value, f=64, reg=r'[\w\u4e00-\u9fcc]+', hashfunc=None, log=None
+            self, value, f=64, reg=r'[\w\u4e00-\u9fcc]+', hashfunc=None, log=None
     ):
         """
         `f` is the dimensions of fingerprints
@@ -79,7 +79,7 @@ class Simhash(object):
 
     def build_by_text(self, content):
         features = self._tokenize(content)
-        features = {k:sum(1 for _ in g) for k, g in groupby(sorted(features))}
+        features = {k: sum(1 for _ in g) for k, g in groupby(sorted(features))}
         return self.build_by_features(features)
 
     def build_by_features(self, features):

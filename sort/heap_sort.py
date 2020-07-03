@@ -1,3 +1,4 @@
+# coding=utf-8
 def heap_sort(data):
     if data is None or len(data) == 0:
         return
@@ -23,3 +24,7 @@ def build(data, i, n):
         data[max_i], data[i] = data[i], data[max_i]
         build(data, max_i, n)
 
+
+d = [3, 4, 1, -2, 7, 9]
+heap_sort(d)
+print d

@@ -1,4 +1,3 @@
-import math
 import time
 
 
@@ -37,7 +36,7 @@ def sub_set_0(a):
 def sub_set_1(a):
     n = len(a)
     res = []
-    for i in range(2**n):
+    for i in range(2 ** n):
         b = bin(i)[2:]
         sub = []
         for j, c in enumerate(b):
@@ -46,19 +45,24 @@ def sub_set_1(a):
         res.append(sub)
     return res
 
+
 @cost
 def sub_set_2(a):
     rst = []
-    def dfs(a, i , r=[]):
+
+    def dfs(a, i, r=[]):
         if i == len(a):
             rst.append(list(r))
             return
         r.append(a[i])
-        dfs(a, i+1, r)
+        dfs(a, i + 1, r)
         r.pop()
-        dfs(a, i+1, r)
+        dfs(a, i + 1, r)
+
     dfs(a, 0)
     return rst
+
+
 @cost
 def sub_set_3(a):
     rst = [[]]
@@ -69,5 +73,6 @@ def sub_set_3(a):
         rst += temp
     return rst
 
-#print sub_set_2(range(10))
+
+# print sub_set_2(range(10))
 print sub_set_3(range(3))

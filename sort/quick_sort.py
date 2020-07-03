@@ -1,3 +1,4 @@
+# coding=utf-8
 def quick_sort(data, start, end):
     if start >= end:
         return
@@ -5,6 +6,7 @@ def quick_sort(data, start, end):
     p = partition(data, start, end)
     quick_sort(data, start, p - 1)
     quick_sort(data, p + 1, end)
+
 
 def partition(data, start, end):
     index = data[start]
@@ -21,8 +23,3 @@ def partition(data, start, end):
             end -= 1
     data[start] = index
     return start
-
-
-d = [3, 4, 1, -2, 7, 9]
-quick_sort(d, 0, len(d) - 1)
-print d
