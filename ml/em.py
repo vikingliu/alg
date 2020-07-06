@@ -134,7 +134,7 @@ if __name__ == '__main__':
     matY = np.matrix(Y, copy=True)
 
     # 模型个数，即聚类的类别个数
-    K = 2
+    K = 3
 
     # 计算 GMM 模型参数
     mu, cov, alpha = GMM_EM(matY, K, 100)
@@ -148,10 +148,12 @@ if __name__ == '__main__':
     # 将每个样本放入对应类别的列表中
     class1 = np.array([Y[i] for i in range(N) if category[i] == 0])
     class2 = np.array([Y[i] for i in range(N) if category[i] == 1])
+    class3 = np.array([Y[i] for i in range(N) if category[i] == 2])
 
     # 绘制聚类结果
     plt.plot(class1[:, 0], class1[:, 1], 'rs', label="class1")
     plt.plot(class2[:, 0], class2[:, 1], 'bo', label="class2")
+    plt.plot(class3[:, 0], class3[:, 1], 'go', label="class3")
     plt.legend(loc="best")
     plt.title("GMM Clustering By EM Algorithm")
     plt.show()
