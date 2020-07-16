@@ -27,12 +27,6 @@ def kmeans(ds, k):
             cores[i] = np.mean(items, axis=0)  # 以子样本集的均值作为当前质心的位置
 
 
-# 加载数据
-def load_data_set(file_name):
-    data = np.loadtxt(file_name, delimiter='\t')
-    return data
-
-
 # 欧氏距离计算
 def distEclud(x, y):
     return np.sqrt(np.sum((x - y) ** 2))  # 计算欧氏距离
