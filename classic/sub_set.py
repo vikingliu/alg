@@ -1,3 +1,4 @@
+# coding=utf-8
 import time
 
 
@@ -14,17 +15,10 @@ def cost(func):
 
 def sub_set(a, start=0):
     if a is None or start == len(a):
-        return []
-    res = []
-    v = a[start]
+        return [[]]
     sub = sub_set(a, start + 1)
-    res.append([v])
-    for item in sub:
-        new_item = list(item)
-        new_item.append(v)
-        res.append(item)
-        res.append(new_item)
-    return res
+    sub += [[a[start]] + s for s in sub]
+    return sub
 
 
 @cost
@@ -34,6 +28,11 @@ def sub_set_0(a):
 
 @cost
 def sub_set_1(a):
+    """
+    二进制 0/1 对应 结合下标
+    :param a:
+    :return:
+    """
     n = len(a)
     res = []
     for i in range(2 ** n):
@@ -48,6 +47,11 @@ def sub_set_1(a):
 
 @cost
 def sub_set_2(a):
+    """
+    二叉树深度遍历， 二进制 0/1
+    :param a:
+    :return:
+    """
     rst = []
 
     def dfs(a, i, r=[]):
@@ -64,15 +68,36 @@ def sub_set_2(a):
 
 
 @cost
-def sub_set_3(a):
+def sub_set_3(s):
+    """
+     f(n) = a[n]f(n-1) + f(n-1)
+     f(0) = []
+    :param s:
+    :return:
+    """
     rst = [[]]
-    for item in a:
-        temp = []
-        for cur in rst:
-            temp.append(cur + [item])
-        rst += temp
+    for item in s:
+        rst += [[item] + sub for sub in rst]
+    return rst
+
+
+def sub_set_4(s):
+    """
+      f(n) = a[n]f(n-1) + a[n-1]f(n-2) ... + a[1]f(0) + f(0)
+      f(0) = []
+    :param s:
+    :return:
+    """
+    rst = []
+
+    def dfs(s, start, path=[]):
+        rst.append(list(path))
+        for i in xrange(start, len(s)):
+            dfs(s, i + 1, path + [s[i]])
+
+    dfs(s, 0)
     return rst
 
 
 # print sub_set_2(range(10))
-print sub_set_3(range(3))
+print sub_set(range(3))
