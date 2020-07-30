@@ -1,19 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import math
-from sklearn import preprocessing
 
 from huffman import *
 from counter import *
 
 
-def sigmoid(value):
-    return 1 / (1 + math.exp(-value))
-
-
-# Derivative of sigmoid function
-def sigmoid_grad(sigmoid):
-    return sigmoid * (1 - sigmoid)
 
 
 def normalize_l2(value):
@@ -122,12 +114,12 @@ class Word2Vec:
                 context_words.pop(i)
         if len(context_words) == 0:
             return
-        # update huffman
+        # gram_vector_sum 求个均值
         error = self.loss_func(word, gram_vector_sum)
         # modify word vector
         for context_word in context_words:
             self.word_dict[context_word]['vector'] += error
-            self.word_dict[context_word]['vector'] = preprocessing.normalize(self.word_dict[context_word]['vector'])
+            self.word_dict[context_word]['vector'] = normalize_l2(self.word_dict[context_word]['vector'])
 
     def SkipGram(self, word, context_words):
         if not word in self.word_dict:
@@ -143,22 +135,7 @@ class Word2Vec:
             error = self.loss_func(context_word, word_vector)
             word_vector += error
             # L2 正则
-            self.word_dict[word]['vector'] = preprocessing.normalize(word_vector)
-
-    def skip_gramp_neg(self, word, context_words):
-        if not word in self.word_dict:
-            return
-        for i in range(len(context_words))[::-1]:
-            if not context_words[i] in self.word_dict:
-                context_words.pop(i)
-        if len(context_words) == 0:
-            return
-        for context_word in context_words:
-            context_word_vector = self.word_dict[context_word]['vector']
-            error = self.loss_func(context_word, context_word_vector)
-            context_word_vector += error
-            # L2 正则
-            self.word_dict[context_word]['vector'] = preprocessing.normalize(context_word_vector)
+            self.word_dict[word]['vector'] = normalize_l2(word_vector)
 
     def hiearchical_softmax_loss(self, word, input_vector):
         node = self.huffman.root
@@ -171,7 +148,7 @@ class Word2Vec:
             error += grad * node.value
             node.value += grad * input_vector
             # L2正则
-            node.value = preprocessing.normalize(node.value)
+            node.value = normalize_l2(node.value)
             if branch == '0':
                 node = node.right
             else:
@@ -191,6 +168,22 @@ class Word2Vec:
                     break
         return neg
 
+    # word2vec 源码的方法
+    def skip_gramp_neg(self, word, context_words):
+        if not word in self.word_dict:
+            return
+        for i in range(len(context_words))[::-1]:
+            if not context_words[i] in self.word_dict:
+                context_words.pop(i)
+        if len(context_words) == 0:
+            return
+        for context_word in context_words:
+            context_word_vector = self.word_dict[context_word]['vector']
+            error = self.loss_func(word, context_word_vector)
+            context_word_vector += error
+            # L2 正则
+            self.word_dict[context_word]['vector'] = normalize_l2(context_word_vector)
+
     def negative_sampling_loss(self, word, input_vector, k=10):
         neg = self.negative_sampling(word, k)
         w = self.word_dict[word]
@@ -205,7 +198,7 @@ class Word2Vec:
             error += grad * theta
             theta += grad * input_vector
             # L2正则
-            u['theta_vec'] = preprocessing.normalize(theta)
+            u['theta_vec'] = normalize_l2(theta)
         return error
 
     def softmax_loss(self, word, input_vector):
@@ -229,6 +222,17 @@ class Word2Vec:
         self.w2 -= self.learn_rate * delta_w2
 
         return error
+
+    def sim_word(self, word1, word2):
+        vec1 = self.word_dict[word1]['vector']
+        vec2 = self.word_dict[word2]['vector']
+        return self.sim_vec(vec1, vec2)
+
+    def sim_vec(self, vec1, vec2):
+        theta_num = np.dot(vec1, vec2)
+        theta_den = np.linalg.norm(vec1) * np.linalg.norm(vec2)
+        theta = theta_num / theta_den
+        return theta
 
     def __getitem__(self, word):
         if not word in self.word_dict:
