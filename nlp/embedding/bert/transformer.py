@@ -38,10 +38,10 @@ def encoder(x, position, Ws, W_O, W1, W2):
     return z
 
 
-def decoder(x, position, Ws, W_O, W1, W2, memery):
+def decoder(x, memery, position, Ws, W_O, W1, W2):
     # masked multi-headed attention
     x += position
-    z = attention.multi_headed_attenton(x, Ws, W_O)
+    z = attention.multi_headed_attenton(x, x, x, Ws, W_O)
 
     # add & norm
     z = x + z
@@ -49,7 +49,7 @@ def decoder(x, position, Ws, W_O, W1, W2, memery):
 
     # multi-headed attention
     # encode_ws = [W_Q, W_K_enc, W_V_enc]
-    z_m = attention.multi_headed_attenton(z, encode_Ws, W_O)
+    z_m = attention.multi_headed_attenton(z, memery, memery, W_O)
 
     # add & norm
     z = z_m + z
@@ -70,21 +70,14 @@ def linear(x, w, b):
     return y
 
 
-def transformer(x, y):
-    encoder()
-    encoder()
-    encoder()
-    encoder()
-    encoder()
-    encoder()
-
-    decoder()
-    decoder()
-    decoder()
-    decoder()
-    decoder()
-    decoder()
-
-    linear()
-    nn_utils.softmax()
-    pass
+def transformer(src, target, n):
+    z = src
+    for i in range(n):
+        z = encoder(z)
+    z_enc = z
+    z = target
+    for i in range(n):
+        z = decoder(z)
+    z = linear(z)
+    z = nn_utils.softmax(z)
+    return z

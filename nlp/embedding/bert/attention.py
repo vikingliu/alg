@@ -65,6 +65,15 @@ def self_attention(query, key, value, W_Q, W_K, W_V):
 
 
 def multi_headed_attenton(queries, keys, values, Ws, W_O):
+    """
+
+    :param queries:  query split to headed queries
+    :param keys: key split to headed keys
+    :param values: value split to headed values
+    :param Ws: [(W_Q0, W_K0, W_V0),......]
+    :param W_O:
+    :return:
+    """
     Z = []
     for i in xrange(len(Ws)):
         W_Q, W_K, W_V = Ws[i]
