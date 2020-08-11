@@ -34,12 +34,12 @@ def newton_sqrt(n):
     :param n:
     :return:
     """
-    r = n
+    xn = n
     cnt = 0
-    while abs(r ** 2 - n) > e:
-        r = (r + n / r) / 2.0
+    while abs(xn ** 2 - n) > e:
+        xn = (xn + n / xn) / 2.0
         cnt += 1
-    return r
+    return xn
 
 
 print newton_sqrt(2)
