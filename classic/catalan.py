@@ -26,7 +26,7 @@ def catalan_cnt(n):
 
 
 def bracket_dfs(n, left=0, right=0, path=''):
-    if right == n:
+    if left == n and right == n:
         print path
         return
 
@@ -37,5 +37,5 @@ def bracket_dfs(n, left=0, right=0, path=''):
         bracket_dfs(n, left, right + 1, path + ')')
 
 
-print catalan_cnt(3)
+print bracket_dfs(3)
 # bracket_dfs(3)

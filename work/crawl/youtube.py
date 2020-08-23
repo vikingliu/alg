@@ -6,12 +6,17 @@ import urllib
 import requests
 import time
 
+
 def crawl(url):
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36'}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Safari/537.36'}
     rsp = requests.get(url, headers=headers)
     return rsp.content
 
+
 code_cache = {}
+
+
 def cache(func):
     def fun(*args, **kwargs):
         now = int(time.time())
@@ -23,6 +28,7 @@ def cache(func):
         _code = func(*args, **kwargs)
         code_cache[js] = (_code, now)
         return _code
+
     return fun
 
 
@@ -40,11 +46,13 @@ def tr_js(code):
     code = re.sub(r'(\w+).split\(""\)', r'list(\1)', code)
     return code
 
-#@cache
+
+# @cache
 def decipher(js, s):
-    _code  = get_code(js)
+    _code = get_code(js)
     exec _code
     return locals()['sig']
+
 
 @cache
 def get_code(js):
@@ -54,7 +62,7 @@ def get_code(js):
     # \w+=function\(\w+\)\{.*?split\(""\).*?join\(""\)\}
     # function \w+\(\w+\)\{.*?split\(""\).*?join\(""\)\}
     f1 = match(js, r'=\s*(\w+)\(decodeURIComponent')
-    #f1 = match(js, r'\W(\w+)=function\(\w+\)\{\w+=\w+\.split\(""\)[^\{]+join\(""\)\}') or \
+    # f1 = match(js, r'\W(\w+)=function\(\w+\)\{\w+=\w+\.split\(""\)[^\{]+join\(""\)\}') or \
     #    match(js, r'function (\w+)\(\w+\)\{\w+=\w+\.split\(""\)[^\{]+join\(""\)\}')
 
     f1def = match(js, r'function %s(\(\w+\)\{[^\{]+\})' % re.escape(f1)) or \
@@ -80,6 +88,7 @@ def get_code(js):
     _code += 'sig=%s(s)' % f1
     return _code
 
+
 def match(text, *patterns):
     if len(patterns) == 1:
         pattern = patterns[0]
@@ -95,6 +104,7 @@ def match(text, *patterns):
             if m:
                 ret.append(m.group(1))
         return ret
+
 
 def get_youtube(url, proxy=None):
     # url = url.replace('www.youtube.com', 'm.youtube.com')
@@ -118,7 +128,7 @@ def get_youtube(url, proxy=None):
                 params = cipher.split('&')
                 params = {p.split('=')[0]: p.split('=')[1] for p in params}
                 sig = urllib.unquote(decipher(js, urllib.unquote(params['s'])))
-                #sig = urllib.unquote(decipher_1(urllib.unquote(params['s'])))
+                # sig = urllib.unquote(decipher_1(urllib.unquote(params['s'])))
                 url = urllib.unquote(params['url']) + '&sig=' + sig
                 urls.append(url)
             else:
@@ -130,7 +140,7 @@ def get_youtube(url, proxy=None):
 
 if __name__ == '__main__':
     # urls = get_youtube('https://www.youtube.com/watch?v=6lXVtCjJrz0')
-    #url = 'https://www.youtube.com/watch?v=6lXVtCjJrz0'
+    # url = 'https://www.youtube.com/watch?v=6lXVtCjJrz0'
     url = 'https://www.youtube.com/watch?v=G4oUeS2ziuw'
     # url = 'https://www.youtube.com/watch?v=iuHnR3Leyqw'
     urls = get_youtube(url)

@@ -1,21 +1,23 @@
-#coding=utf-8
-import requests
-import re
+# coding=utf-8
 import csv
 import json
 from lxml import html
 import sys
+
 sys.path.append('..')
 import crawl_util
+
 cookie = open('cookie.txt').read().strip()
 headers = {
     'Cookie': cookie,
 }
 
+
 def crawl(url, referer=''):
     headers['referer'] = referer
     rsp = crawl_util.crawl(url, headers=headers)
     return rsp.content
+
 
 def crawl_linkedin(link, f_name):
     page = 1
@@ -24,7 +26,7 @@ def crawl_linkedin(link, f_name):
         w.writerow(['name', 'location', 'occupation', 'link'])
         while True:
             url = link + '&page=%s' % page
-            #url = 'https://www.linkedin.com/search/results/people/?facetCurrentCompany=%s&facetGeoRegion=%s&keywords=%s&origin=FACETED_SEARCH&page=%s' % (facetCurrentCompany, facetGeoRegion, keywords, page)
+            # url = 'https://www.linkedin.com/search/results/people/?facetCurrentCompany=%s&facetGeoRegion=%s&keywords=%s&origin=FACETED_SEARCH&page=%s' % (facetCurrentCompany, facetGeoRegion, keywords, page)
             print url
             content = crawl(url)
             sel = html.fromstring(content)
@@ -42,8 +44,9 @@ def crawl_linkedin(link, f_name):
             els = els['elements']
             for item in els:
                 uid = item.get('publicIdentifier', '')
-                profile = '' if uid == ''  else 'https://www.linkedin.com/in/' + uid
-                row = [get_text(item,'title'), get_text(item,'subline'),get_text(item,'headline'), profile.encode('utf-8')]
+                profile = '' if uid == '' else 'https://www.linkedin.com/in/' + uid
+                row = [get_text(item, 'title'), get_text(item, 'subline'), get_text(item, 'headline'),
+                       profile.encode('utf-8')]
                 w.writerow(row)
 
             total = data['data']['paging']['total']
@@ -52,15 +55,17 @@ def crawl_linkedin(link, f_name):
             if page > max_page:
                 break
 
+
 def get_text(item, key):
-    return item.get(key, {}).get('text','').encode('utf-8')
+    return item.get(key, {}).get('text', '').encode('utf-8')
+
 
 if __name__ == '__main__':
     f = open('conf.txt')
     params = {}
     for line in f.readlines():
         line = line.strip()
-        if line.startswith('#') or ':' not in line :
+        if line.startswith('#') or ':' not in line:
             continue
         key, value = line.split(':', 1)
         params[key] = value.strip()
