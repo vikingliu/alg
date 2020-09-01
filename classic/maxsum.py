@@ -68,4 +68,4 @@ def max_multi(arr):
     return max_res
 
 
-print max_sum_subset([10, 6, 3, 8])
+print(max_sum_subset([10, 6, 3, 8]))

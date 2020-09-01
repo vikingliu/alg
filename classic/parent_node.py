@@ -68,4 +68,4 @@ class Node(object):
 root = Node(1, Node(2), Node(3, Node(5), Node(8)))
 v, n = find_min_parent(root, 2, 9)
 if n:
-    print n
+    print(n)

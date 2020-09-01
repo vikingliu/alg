@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5e887ec4-00db-4710-9cf9-6b7a589f078e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/ca.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/cert.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/cert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/mitmproxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/modifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/proxy2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/win/openssl.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/win/openssl.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/proxy/win_inet_pton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/webdriver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/webdriver/browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/crawl/selenuim/seleniumwire/webdriver/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/alg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classic/catalan.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/catalan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/change.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/change.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/maxsum.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/maxsum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/num_sum_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/num_sum_seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/page_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/page_rank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classic/parent_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/parent_node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/crawl_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/crawl_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/ins.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/ins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/linkedin/linkedin.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/linkedin/linkedin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/youtube.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/youtube.py" afterDir="false" />
     </list>
-    <ignored path="alg.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,94 +61,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="alg" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/crawl/manmanbuy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
-              <folding>
-                <element signature="e#16#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/sub_set.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classic/catalan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classic/parent_node.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/crawl/sku.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/site-packages/lxml/html/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11460">
-              <caret line="764" column="48" selection-start-line="764" selection-start-column="48" selection-end-line="764" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/crawl/youtube.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/crawl/ins.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work/crawl/crawl_util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="59" column="33" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="33" />
-              <folding>
-                <element signature="e#14#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,195 +70,51 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>possibility</find>
-      <find>huffman</find>
-      <find>word2vecCostAndGradient</find>
-      <find>sgd</find>
-      <find>negSamplingCostAndGradient</find>
-      <find>normalizeRows</find>
-      <find>save_params</find>
-      <find>learning_rate</find>
-      <find>gradient_checker</find>
-      <find>learn_rate</find>
-      <find>__getitem__</find>
-      <find>forward_pass</find>
-      <find>less_than</find>
-      <find>neg_samp</find>
-      <find>sigmoid_grad</find>
-      <find>normalize_l2</find>
-      <find>normalize</find>
-      <find />
-      <find>Tensor</find>
-      <find>overload</find>
-      <find>get_std_opt</find>
-      <find>sigmoid</find>
-      <find>attention</find>
-      <find>MultiHeadedAttention</find>
-      <find>src_mask</find>
-      <find>generator</find>
-      <find>norm</find>
-      <find>...:</find>
-      <find>LayerNorm</find>
-      <find>363</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>val</replace>
-      <replace>brother</replace>
-      <replace>data</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ml/xgboost.py" />
-        <option value="$PROJECT_DIR$/nlp/word2vec/huffman.py" />
-        <option value="$PROJECT_DIR$/nlp/word2vec/counter.py" />
-        <option value="$PROJECT_DIR$/structure/huffuman_tree.py" />
-        <option value="$PROJECT_DIR$/classic/sub_set.py" />
-        <option value="$PROJECT_DIR$/nlp/word2vec/word2vec_1.py" />
-        <option value="$PROJECT_DIR$/nlp/word2vec/word2vec.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/word2vec_1.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/tf/main.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/tf/const.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/tf/dataset.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/tf/skipgram.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/tf/cobw_softmax.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/tf/cbow_neg.py" />
-        <option value="$PROJECT_DIR$/nlp/word2vec.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/word2vec_nn.py" />
-        <option value="$PROJECT_DIR$/nlp/bert.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/doc2vec.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/gpt.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/elmo.py" />
-        <option value="$PROJECT_DIR$/nn/attention.py" />
-        <option value="$PROJECT_DIR$/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/word2vec/word2vec.py" />
-        <option value="$PROJECT_DIR$/utils/nn_utils.py" />
-        <option value="$PROJECT_DIR$/nn/ffnn.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/bert/transformer_model.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/bert/attention.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/bert/transformer.py" />
-        <option value="$PROJECT_DIR$/nn/lstm.py" />
-        <option value="$PROJECT_DIR$/classic/bracket.py" />
-        <option value="$PROJECT_DIR$/rec/svd.py" />
-        <option value="$PROJECT_DIR$/nn/rnn.py" />
-        <option value="$PROJECT_DIR$/nn/cnn.py" />
-        <option value="$PROJECT_DIR$/nlp/embedding/bert/__init__.py" />
-        <option value="$PROJECT_DIR$/rec/item_base.py" />
-        <option value="$PROJECT_DIR$/classic/sqrt.py" />
-        <option value="$PROJECT_DIR$/ml/lgb.py" />
-        <option value="$PROJECT_DIR$/classic/changes.py" />
-        <option value="$PROJECT_DIR$/classic/change.py" />
-        <option value="$PROJECT_DIR$/classic/num_sum_seq.py" />
-        <option value="$PROJECT_DIR$/nlp/dssm.py" />
-        <option value="$PROJECT_DIR$/utils/xina.py" />
-        <option value="$PROJECT_DIR$/ml/gd.py" />
-        <option value="$PROJECT_DIR$/work/crawl/crawl_util.py" />
-        <option value="$PROJECT_DIR$/work/crawl/youtube.py" />
-        <option value="$PROJECT_DIR$/work/crawl/ins.py" />
-        <option value="$PROJECT_DIR$/work/crawl/linkedin/linkedin.py" />
-        <option value="$PROJECT_DIR$/work/crawl/sku.txt" />
-        <option value="$PROJECT_DIR$/work/crawl/manmanbuy.py" />
-        <option value="$PROJECT_DIR$/classic/catalan.py" />
-        <option value="$PROJECT_DIR$/classic/parent_node.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
-  </component>
+  <component name="JupyterTrust" id="0302d74d-e983-4c4f-9e41-0b650babbed4" />
+  <component name="ProjectId" id="1gXK3tX37JtpuSKMoo8eq8bV2Ke" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alg" type="462c0819:PsiDirectoryNode" />
-              <item name="classic" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="alg" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="alg" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/structure" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/work/crawl/selenuim" />
       <recent name="$PROJECT_DIR$/nlp/embedding/bert" />
       <recent name="$PROJECT_DIR$/nlp/embedding" />
       <recent name="$PROJECT_DIR$/nlp/embedding/word2vec" />
       <recent name="$PROJECT_DIR$/structure" />
-      <recent name="$PROJECT_DIR$/ml" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/structure" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.parent_node">
-    <configuration name="bracket" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="alg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/catalan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.taobao">
     <configuration name="change" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,29 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manmanbuy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="alg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/crawl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/crawl/manmanbuy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="num_sum_seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maxsum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,7 +172,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/num_sum_seq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/maxsum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,16 +203,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="selenuim" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/crawl/selenuim" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/crawl/selenuim/selenuim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/crawl/selenuim" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/crawl/selenuim/taobao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.parent_node" />
-        <item itemvalue="Python.bracket" />
-        <item itemvalue="Python.manmanbuy" />
-        <item itemvalue="Python.num_sum_seq" />
+        <item itemvalue="Python.taobao" />
+        <item itemvalue="Python.selenuim" />
+        <item itemvalue="Python.maxsum" />
         <item itemvalue="Python.change" />
+        <item itemvalue="Python.parent_node" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -452,11 +283,12 @@
       <workItem from="1597371388936" duration="91000" />
       <workItem from="1597371484979" duration="8735000" />
       <workItem from="1597912382075" duration="4114000" />
+      <workItem from="1598255304682" duration="1575000" />
+      <workItem from="1598328157901" duration="8672000" />
+      <workItem from="1598446625558" duration="14724000" />
+      <workItem from="1598599796950" duration="20480000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,60 +299,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
-      <window_info id="Structure" order="1" weight="0.24959612" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.27737227" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49757674" weight="0.329927" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24817519" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.32956383" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17043619" />
-      <window_info id="Structure" order="1" weight="0.24959612" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.20729928" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24817519" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.32956383" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -532,395 +312,116 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598497723175">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1598497723175" />
+    <state x="1003" y="276" key="#xdebugger.evaluate" timestamp="1598869170311">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1003" y="276" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1598869170311" />
+    <state width="1548" height="466" key="DebuggerActiveHint" timestamp="1598849300288">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1548" height="466" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1598849300288" />
+    <state x="493" y="375" key="FileChooserDialogImpl" timestamp="1598268629357">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="493" y="375" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1598268629357" />
+    <state width="1638" height="231" key="GridCell.Tab.0.bottom" timestamp="1598882764884">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="231" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598882764884" />
+    <state width="1638" height="231" key="GridCell.Tab.0.center" timestamp="1598882764883">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="231" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598882764883" />
+    <state width="1638" height="231" key="GridCell.Tab.0.left" timestamp="1598882764883">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="231" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598882764883" />
+    <state width="1638" height="231" key="GridCell.Tab.0.right" timestamp="1598882764884">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="231" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598882764884" />
+    <state width="1638" height="280" key="GridCell.Tab.1.bottom" timestamp="1598870231801">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598870231801" />
+    <state width="1638" height="280" key="GridCell.Tab.1.center" timestamp="1598870231800">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598870231800" />
+    <state width="1638" height="280" key="GridCell.Tab.1.left" timestamp="1598870231800">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598870231800" />
+    <state width="1638" height="280" key="GridCell.Tab.1.right" timestamp="1598870231800">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598870231800" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1598343509376">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1598343509376" />
+    <state width="840" height="513" key="XDebugger.FullValuePopup" timestamp="1598848928305">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="840" height="513" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1598848928305" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1598536467896">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598536467896" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alg$lda.coverage" NAME="lda Coverage Results" MODIFIED="1594868552179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
+    <SUITE FILE_PATH="coverage/alg$word2vec__1_.coverage" NAME="word2vec (1) Coverage Results" MODIFIED="1594974813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/word2vec" />
     <SUITE FILE_PATH="coverage/alg$item_base.coverage" NAME="item_base Coverage Results" MODIFIED="1596784844347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rec" />
-    <SUITE FILE_PATH="coverage/alg$avl_tree.coverage" NAME="avl_tree Coverage Results" MODIFIED="1564566368884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$sqrt.coverage" NAME="sqrt Coverage Results" MODIFIED="1596458810368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$huffuman.coverage" NAME="huffuman Coverage Results" MODIFIED="1563936996659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$knn.coverage" NAME="knn Coverage Results" MODIFIED="1593744780092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
+    <SUITE FILE_PATH="coverage/alg$h5.coverage" NAME="taobao Coverage Results" MODIFIED="1598431782797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
+    <SUITE FILE_PATH="coverage/alg$heap_sort.coverage" NAME="heap_sort Coverage Results" MODIFIED="1593744345515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/alg$num_sum_seq.coverage" NAME="num_sum_seq Coverage Results" MODIFIED="1597119069499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$ball_tree.coverage" NAME="ball_tree Coverage Results" MODIFIED="1593755179377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
-    <SUITE FILE_PATH="coverage/alg$huffuman_tree.coverage" NAME="huffuman_tree Coverage Results" MODIFIED="1594905021060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
-    <SUITE FILE_PATH="coverage/alg$water_area.coverage" NAME="water_area Coverage Results" MODIFIED="1564134631575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$red_black_tree.coverage" NAME="red_black_tree Coverage Results" MODIFIED="1564583128469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
-    <SUITE FILE_PATH="coverage/alg$maxsum.coverage" NAME="maxsum Coverage Results" MODIFIED="1564134399810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$transformer_model.coverage" NAME="transformer_model Coverage Results" MODIFIED="1596029126770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/embedding/bert" />
-    <SUITE FILE_PATH="coverage/alg$em.coverage" NAME="em Coverage Results" MODIFIED="1593766005791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
     <SUITE FILE_PATH="coverage/alg$b_plus_tree_1.coverage" NAME="b_plus_tree_1 Coverage Results" MODIFIED="1564553137118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
-    <SUITE FILE_PATH="coverage/alg$manmanbuy.coverage" NAME="manmanbuy Coverage Results" MODIFIED="1597385234748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
-    <SUITE FILE_PATH="coverage/alg$parent_node.coverage" NAME="parent_node Coverage Results" MODIFIED="1598150263934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$selenuim.coverage" NAME="selenuim Coverage Results" MODIFIED="1598847115303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
+    <SUITE FILE_PATH="coverage/alg$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1598882764877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
+    <SUITE FILE_PATH="coverage/alg$red_black_tree.coverage" NAME="red_black_tree Coverage Results" MODIFIED="1564583128469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$ball_tree.coverage" NAME="ball_tree Coverage Results" MODIFIED="1593755179377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$sub_set.coverage" NAME="sub_set Coverage Results" MODIFIED="1594963760070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$bracket.coverage" NAME="bracket Coverage Results" MODIFIED="1597913548619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$gmm.coverage" NAME="gmm Coverage Results" MODIFIED="1594007711450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cluster" />
     <SUITE FILE_PATH="coverage/alg$word2vec__2_.coverage" NAME="word2vec (2) Coverage Results" MODIFIED="1595416741964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/embedding/word2vec" />
-    <SUITE FILE_PATH="coverage/alg$sqrt.coverage" NAME="sqrt Coverage Results" MODIFIED="1596458810368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$change.coverage" NAME="change Coverage Results" MODIFIED="1597066123832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$b_tree.coverage" NAME="b_tree Coverage Results" MODIFIED="1564489192351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$parent_node.coverage" NAME="parent_node Coverage Results" MODIFIED="1598150263934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1564023832547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/alg$huffuman.coverage" NAME="huffuman Coverage Results" MODIFIED="1563936996659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1593744309082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/alg$em.coverage" NAME="em Coverage Results" MODIFIED="1593766005791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
+    <SUITE FILE_PATH="coverage/alg$transformer_model.coverage" NAME="transformer_model Coverage Results" MODIFIED="1596029126770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/embedding/bert" />
+    <SUITE FILE_PATH="coverage/alg$manmanbuy.coverage" NAME="manmanbuy Coverage Results" MODIFIED="1597385234748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
+    <SUITE FILE_PATH="coverage/alg$huffuman_tree.coverage" NAME="huffuman_tree Coverage Results" MODIFIED="1594905021060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1595389477074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
+    <SUITE FILE_PATH="coverage/alg$avl_tree.coverage" NAME="avl_tree Coverage Results" MODIFIED="1564566368884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1563940557193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$b_tree.coverage" NAME="b_tree Coverage Results" MODIFIED="1564489192351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$water_area.coverage" NAME="water_area Coverage Results" MODIFIED="1564134631575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$heapsort.coverage" NAME="heapsort Coverage Results" MODIFIED="1563938596612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$b_plus_tree.coverage" NAME="b_plus_tree Coverage Results" MODIFIED="1564553192874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
-    <SUITE FILE_PATH="coverage/alg$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1563940557193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$maxsum.coverage" NAME="maxsum Coverage Results" MODIFIED="1598343443357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$max_hp.coverage" NAME="max_hp Coverage Results" MODIFIED="1593745347943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
-    <SUITE FILE_PATH="coverage/alg$heap_sort.coverage" NAME="heap_sort Coverage Results" MODIFIED="1593744345515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/alg$lda.coverage" NAME="lda Coverage Results" MODIFIED="1594868552179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
-    <SUITE FILE_PATH="coverage/alg$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1595389477074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
     <SUITE FILE_PATH="coverage/alg$k_means_plus_plus.coverage" NAME="k_means_plus_plus Coverage Results" MODIFIED="1593696307468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cluster" />
-    <SUITE FILE_PATH="coverage/alg$word2vec__1_.coverage" NAME="word2vec (1) Coverage Results" MODIFIED="1594974813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/word2vec" />
-    <SUITE FILE_PATH="coverage/alg$knn.coverage" NAME="knn Coverage Results" MODIFIED="1593744780092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
-    <SUITE FILE_PATH="coverage/alg$bracket.coverage" NAME="bracket Coverage Results" MODIFIED="1597913548619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1593744309082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/alg$sub_set.coverage" NAME="sub_set Coverage Results" MODIFIED="1594963760070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>cat3.getchildren()[0].text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cat3.getchildren()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cat3.getchildren(0)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cat3.getchildren</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cat3.getchild</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cat3.text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cat3</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ele.attrib['class']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ele.attrib</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/site-packages/torch/nn/modules/container.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="550" column="49" lean-forward="true" selection-start-line="550" selection-start-column="49" selection-end-line="550" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/word2vec/huffman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/word2vec/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="205" column="25" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/torch/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="873" column="8" selection-start-line="873" selection-start-column="8" selection-end-line="873" selection-end-column="8" />
-          <folding>
-            <element signature="e#41#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/scipy/sparse/csr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-659">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/bert/attention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-          <folding>
-            <element signature="e#16#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/bert/transformer_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/read_write.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rec/svd.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn/lstm.py" />
-    <entry file="file://$PROJECT_DIR$/nn/gru.py" />
-    <entry file="file://$PROJECT_DIR$/nn/sru.py" />
-    <entry file="file://$PROJECT_DIR$/nn/rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/bert/transformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#16#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn/ffnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn/dnn.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn/cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nn/sequeeze_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/nn_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rec/item_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#18#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/gmm.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/db_scan.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/k_means.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/page_rank.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/min_distance.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/num_sum_seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/lgb.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/gbdt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/gbt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/xgboost.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/sqrt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/bert/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/embedding/bert/bert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/gd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/dssm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/xina.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/water_area.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="616" column="8" selection-start-line="616" selection-start-column="8" selection-end-line="616" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/crawl/linkedin/linkedin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/crawl/manmanbuy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
-          <folding>
-            <element signature="e#16#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/crawl/sku.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/lxml/html/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11460">
-          <caret line="764" column="48" selection-start-line="764" selection-start-column="48" selection-end-line="764" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/crawl/youtube.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/crawl/ins.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/crawl/crawl_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="33" />
-          <folding>
-            <element signature="e#14#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/sub_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/catalan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classic/parent_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/alg$change.coverage" NAME="change Coverage Results" MODIFIED="1598343420657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
   </component>
 </project>

@@ -9,7 +9,7 @@ d = 0.85
 def cal_pr(m, pr, epoch=100):
     for i in range(epoch):
         pr = 1 - d + d * m.dot(pr)
-        print pr
+        print(pr)
     return pr
 
 if __name__ == '__main__':

@@ -5,13 +5,13 @@ import math
 
 def get_num_sum(s):
     n = len(s)
-    for i in xrange(n / 2):
+    for i in range(n / 2):
         num1 = s[0: i + 1]
         x = int(math.ceil((n + i) / 2.0))
-        for j in xrange(i + 1, x):
+        for j in range(i + 1, x):
             num2 = s[i + 1: j + 1]
             nums = get_sequence(num1, num2, s)
-            print num1, num2, nums
+            print (num1, num2, nums)
 
 
 def get_sequence(num1, num2, s):

@@ -12,10 +12,10 @@ def combination(n, change=[], start=0, path=[]):
     :return:
     """
     if n == 0:
-        print path
+        print(path)
         return
 
-    for i in xrange(start, len(change)):
+    for i in range(start, len(change)):
         item = change[i]
         if n >= item:
             combination(n - item, change, i, path + [item])
@@ -53,7 +53,7 @@ def coin_change(amount, coins):
     for c in coins:
         for i in range(c, amount + 1):
             dp[i] += dp[i - c]
-    print dp
+    print(dp)
     return dp[amount]
 
 

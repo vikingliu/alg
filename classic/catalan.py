@@ -16,10 +16,10 @@ def catalan_cnt(n):
     if n == 1:
         return 1
     n_factorial = 1
-    for i in xrange(1, n + 1):
+    for i in range(1, n + 1):
         n_factorial *= i
     n2_factorial = n_factorial
-    for i in xrange(n + 1, 2 * n + 1):
+    for i in range(n + 1, 2 * n + 1):
         n2_factorial *= i
 
     return n2_factorial / (n_factorial * n_factorial * (n + 1))
@@ -27,7 +27,7 @@ def catalan_cnt(n):
 
 def bracket_dfs(n, left=0, right=0, path=''):
     if left == n and right == n:
-        print path
+        print(path)
         return
 
     if left < n:
@@ -37,5 +37,5 @@ def bracket_dfs(n, left=0, right=0, path=''):
         bracket_dfs(n, left, right + 1, path + ')')
 
 
-print bracket_dfs(3)
+print(bracket_dfs(3))
 # bracket_dfs(3)
