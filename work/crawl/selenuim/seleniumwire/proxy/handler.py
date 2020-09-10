@@ -331,6 +331,49 @@ class CaptureRequestHandler(CaptureMixin, AdminMixin, ProxyRequestHandler):
             print('modify wake.js')
             return res_body
 
+        if req.path.find('a9-tq-forensics.min.js') > 0 or req.path.find('fbevents.js') >0:
+            import gzip
+            res_body = gzip.decompress(res_body)
+            webkeys = {'$cdc_asdjflasutopfhvcZLmcfl_',
+             '$chrome_asyncScriptInfo',
+             'ChromeDriverw',
+             '_Selenium_IDE_Recorder',
+             '_WEBDRIVER_ELEM_CACHE',
+             '__$webdriverAsyncExecutor',
+             '__driver_evaluate',
+             '__driver_unwrapped',
+             '__fxdriver_evaluate',
+             '__fxdriver_unwrapped',
+             '__lastWatirAlert',
+             '__lastWatirConfirm',
+             '__lastWatirPrompt',
+             '__nightmare',
+             '__selenium_evaluate',
+             '__selenium_unwrapped',
+             '__webdriverFunc',
+             '__webdriver_evaluate',
+             '__webdriver_script_fn',
+             '__webdriver_script_func',
+             '__webdriver_script_function',
+             '__webdriver_unwrapped',
+             '_selenium',
+             'callSelenium',
+             'calledSelenium',
+             'driver-evaluate',
+             'selenium-evaluate',
+             'webdriver',
+             'webdriver-evaluate',
+             'webdriver-evaluate-response',
+             'webdriverCommand'}
+            for i, webkey in enumerate(webkeys):
+                key = 'key' + str(i)
+                res_body = res_body.replace(webkey.encode('utf-8'), key.encode('utf-8'))
+            res_body = gzip.compress(res_body)
+            response.body = res_body
+            print('modify selenium check ' + req.path)
+            return res_body
+
+
     def handle_admin(self):
         """Handle an admin request."""
         content_length = int(self.headers.get('Content-Length', 0))

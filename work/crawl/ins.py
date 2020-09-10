@@ -10,7 +10,6 @@ import os
 import sqlite3
 import threading
 import traceback
-from urllib import quote
 import crawl_util
 
 email = '79858908@qq.com'
@@ -27,7 +26,7 @@ def crawl_followers(userids):
         max_id = None
         for userid in userids:
             url = 'https://i.instagram.com/api/v1/friendships/%s/followers/' % userid
-            print get_content(url, cookies)
+            print(get_content(url, cookies))
 
 
 def crawl_following(userids):
@@ -35,7 +34,7 @@ def crawl_following(userids):
     if cookies:
         for userid in userids:
             url = 'https://i.instagram.com/api/v1/friendships/%s/following/' % userid
-            print get_content(url, cookies)
+            print(get_content(url, cookies))
 
 
 def crawl_tags(tags):
@@ -43,18 +42,18 @@ def crawl_tags(tags):
     if cookies:
         for tag in tags:
             url = 'https://i.instagram.com/api/v1/feed/tag/%s/' % tag
-            print get_content(url, cookies)
+            print(get_content(url, cookies))
 
 
 def crawl_user_posts(userids):
     cookies = login()
     for userid in userids:
         url = 'https://i.instagram.com/api/v1/feed/user/%s/' % userid
-        print get_content(url, cookies)
+        print(get_content(url, cookies))
 
 
 def get_content(url, cookies, max_page=1, callback_func=None):
-    print url
+    print(url)
     max_id = None
     items = []
     for page in range(max_page):
@@ -77,14 +76,14 @@ def crawl_user_info(userid, cookies):
     url = 'https://i.instagram.com/api/v1/users/%s/info/' % userid
     rsp = crawl_util.crawl(url, headers=headers, cookies=cookies)
     if rsp.status_code in [403, 429]:
-        print '%s forbidden sleep 60s... %s' % (rsp.status_code, url)
+        print('%s forbidden sleep 60s... %s' % (rsp.status_code, url))
         time.sleep(60)
     elif rsp.status_code == 404:
         return 404, {}
     if rsp and 'user' in rsp.json():
         return 200, rsp.json()['user']
     else:
-        print url, rsp
+        print(url, rsp)
 
 
 def login():
@@ -96,11 +95,11 @@ def login():
     data = dict(signed_body=signed_body, ig_sig_key_version=4)
     api = 'https://i.instagram.com/api/v1/accounts/login/'
     rsp = crawl_util.crawl(api, data=data, method='post', headers=headers)
-    for cookie in rsp.cookies:
-        if cookie.name == 'csrftoken':
-            csrftoken = cookie.value
-            headers['x-csrftoken'] = csrftoken
-            break
+    # for cookie in rsp.cookies:
+    #     if cookie.name == 'csrftoken':
+    #         csrftoken = cookie.value
+    #         headers['x-csrftoken'] = csrftoken
+    #         break
     return rsp.cookies
 
 
@@ -111,7 +110,7 @@ def crawl_users(userids=None):
             try:
                 status, user_info = crawl_user_info(userid, cookies)
                 if 'is_business' not in user_info:
-                    print 'status:%s fail: %s' % (status, userid)
+                    print('status:%s fail: %s' % (status, userid))
                     continue
                 user = {
                     'user_id': userid,
@@ -122,9 +121,9 @@ def crawl_users(userids=None):
                     'follower': user_info.get('follower_count', 0),
                     'extra': json.dumps(user_info)
                 }
-                print '%s/%s update user %s email:%s' % (i + 1, len(userids), userid, user['email'])
+                print('%s/%s update user %s email:%s' % (i + 1, len(userids), userid, user['email']))
             except Exception as e:
-                print 'except fail: %s, e:%s' % (userid, e)
+                print('except fail: %s, e:%s' % (userid, e))
             time.sleep(3)
 
 

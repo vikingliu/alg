@@ -50,7 +50,7 @@ def tr_js(code):
 # @cache
 def decipher(js, s):
     _code = get_code(js)
-    exec _code
+    exec(_code)
     return locals()['sig']
 
 
@@ -108,7 +108,7 @@ def match(text, *patterns):
 
 def get_youtube(url, proxy=None):
     # url = url.replace('www.youtube.com', 'm.youtube.com')
-    print url
+    print(url)
     page = crawl(url)
     meta = re.findall(r'ytplayer\.config\s*=\s*(\{".*?\}\});', page)
     js = re.findall(r'src="([^"]+base.js)"', page)
@@ -145,4 +145,4 @@ if __name__ == '__main__':
     # url = 'https://www.youtube.com/watch?v=iuHnR3Leyqw'
     urls = get_youtube(url)
     for url in urls:
-        print url
+        print(url)

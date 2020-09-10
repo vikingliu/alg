@@ -1,0 +1,43 @@
+1599530775185	geckodriver	INFO	Listening on 127.0.0.1:64762
+1599530776214	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/90/h4wg45396fvdtcx32f7f3m080000gp/T/rust_mozprofiletHYIRO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599530778527	Marionette	INFO	Listening on port 64785
+1599530778575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.pddpic.com/assets/js/react_pdd_d336d3198bbc45fda0df.js, line 1: Error: cmt report error "NetworkError when attempting to fetch resource."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.pddpic.com/assets/js/react_pdd_958c002c04bc8d422266.js, line 1: Error: cmt report error NetworkError when attempting to fetch resource.
+JavaScript error: https://static.pddpic.com/assets/js/react_pdd_958c002c04bc8d422266.js, line 1: Error: cmt report error NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1599530811900	Marionette	INFO	Stopped listening on port 64785
+1599531157564	geckodriver	INFO	Listening on 127.0.0.1:50575
+1599531157573	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/90/h4wg45396fvdtcx32f7f3m080000gp/T/rust_mozprofileLKxBRA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599531159736	Marionette	INFO	Listening on port 50584
+1599531159814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.pddpic.com/assets/js/react_pdd_d336d3198bbc45fda0df.js, line 1: Error: cmt report error "NetworkError when attempting to fetch resource."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.pddpic.com/assets/js/react_pdd_958c002c04bc8d422266.js, line 1: Error: cmt report error NetworkError when attempting to fetch resource.
+JavaScript error: https://static.pddpic.com/assets/js/react_pdd_958c002c04bc8d422266.js, line 1: Error: cmt report error NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1599531189884	Marionette	INFO	Stopped listening on port 50584

@@ -52,7 +52,7 @@ def crawl_all():
                 url = v3['url']
                 cnt = crawl_list(url)
                 sku[cat1][cat2][cat3]['cnt'] = cnt
-                print i, cnt, url
+                print(i, cnt, url)
                 i += 1
 
     sku = json.dumps(sku)
@@ -72,8 +72,8 @@ def stats(sku=None):
             for cat3, v3 in v2.items():
                 cnt += int(v3['cnt'])
         total += cnt
-        print cat1, cnt
-    print total
+        print(cat1, cnt)
+    print(total)
 
 
 if __name__ == '__main__':

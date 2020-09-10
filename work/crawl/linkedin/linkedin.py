@@ -69,5 +69,5 @@ if __name__ == '__main__':
             continue
         key, value = line.split(':', 1)
         params[key] = value.strip()
-    print params
+    print(params)
     crawl_linkedin(params['link'], params['file'])
