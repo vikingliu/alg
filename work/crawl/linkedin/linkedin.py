@@ -27,7 +27,7 @@ def crawl_linkedin(link, f_name):
         while True:
             url = link + '&page=%s' % page
             # url = 'https://www.linkedin.com/search/results/people/?facetCurrentCompany=%s&facetGeoRegion=%s&keywords=%s&origin=FACETED_SEARCH&page=%s' % (facetCurrentCompany, facetGeoRegion, keywords, page)
-            print url
+            print(url)
             content = crawl(url)
             sel = html.fromstring(content)
             codes = sel.xpath('//code')
