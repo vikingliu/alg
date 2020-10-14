@@ -23,7 +23,6 @@ headers = {
 def crawl_followers(userids):
     cookies = login()
     if cookies:
-        max_id = None
         for userid in userids:
             url = 'https://i.instagram.com/api/v1/friendships/%s/followers/' % userid
             print(get_content(url, cookies))
@@ -60,6 +59,7 @@ def get_content(url, cookies, max_page=1, callback_func=None):
         if max_id:
             url = url + '?max_id=%s' + max_id
         rsp = crawl_util.crawl(url, headers=headers, cookies=cookies)
+        print(rsp.status_code)
         data = rsp.json()
         if 'items' in data:
             items += data['items']
@@ -85,7 +85,6 @@ def crawl_user_info(userid, cookies):
     else:
         print(url, rsp)
 
-
 def login():
     d = {"phone_id": "e40cf722-2116-474e-b7dc-fccdc5e01c50", "username": email,
          "adid": "2acaf82e-080f-404d-8268-50d487a7c5e2", "guid": "758492fb-2663-4f27-a99c-beedcf904d33",
@@ -100,6 +99,7 @@ def login():
     #         csrftoken = cookie.value
     #         headers['x-csrftoken'] = csrftoken
     #         break
+    print('login: %s' % rsp.status_code)
     return rsp.cookies
 
 

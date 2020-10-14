@@ -42,4 +42,4 @@ def newton_sqrt(n):
     return xn
 
 
-print newton_sqrt(2)
+print(newton_sqrt(2))

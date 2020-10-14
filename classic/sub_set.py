@@ -7,7 +7,7 @@ def cost(func):
         start = time.time()
         res = func(*args, **kw)
         end = time.time()
-        print end - start
+        print(end - start)
         return res
 
     return cal
@@ -100,4 +100,4 @@ def sub_set_4(s):
 
 
 # print sub_set_2(range(10))
-print sub_set(range(3))
+print(sub_set(range(3)))

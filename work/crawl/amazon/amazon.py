@@ -175,7 +175,9 @@ def crawl_all_list():
                         has_crawled += len(products)
                     elif not succ:
                         return
-                    if  has_crawled >= total:
+                    else:
+                        break
+                    if has_crawled >= total:
                         break
 
                     time.sleep(5)
