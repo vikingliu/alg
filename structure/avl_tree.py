@@ -194,27 +194,27 @@ if __name__ == '__main__':
     # 中序遍历
     tree.in_order()
     # 是否是BST
-    print "is BST:", tree.is_bst()
+    print("is BST:", tree.is_bst())
     # 是否平衡
-    print "is Balanced:", tree.is_balanced()
+    print("is Balanced:", tree.is_balanced())
     # 添加节点45
     tree.add(45)
     # 是否还是BST
-    print "is BST:", tree.is_bst()
+    print("is BST:", tree.is_bst())
     # 是否还是平衡的
-    print "is Balanced:", tree.is_balanced()
+    print("is Balanced:", tree.is_balanced())
     # 查找节点50
-    print tree.find(50)
+    print(tree.find(50))
     # 删除节点后
     tree.delete(40);
     # 是否还是BST
-    print "is BST:", tree.is_bst()
+    print("is BST:", tree.is_bst())
     # 是否还是平衡的
-    print "is Balanced:", tree.is_balanced()
-    tree.update(45, 51);
+    print("is Balanced:", tree.is_balanced())
+    tree.update(45, 51)
     # 是否还是BST
-    print "is BST:", tree.is_bst()
+    print("is BST:", tree.is_bst())
     # 是否还是平衡的
-    print "is Balanced:", tree.is_balanced()
+    print("is Balanced:", tree.is_balanced())
 
-    print tree.root
+    print(tree.root)

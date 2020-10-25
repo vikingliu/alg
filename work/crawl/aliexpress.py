@@ -10,13 +10,12 @@ import crawl_util
 import random
 
 headers = {
-    # 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     # 'accept-encoding': 'gzip, deflate, br',
     # 'accept-language': 'en-US, en;',
-    'cookie': '_uab_collina=159973882043370406229731; _bl_uid=eIkLbeg9w10rjL6OOxwjy3zumjzs; XSRF-TOKEN=e20f6ef6-8535-4d94-b827-5f2602b6046c; x5sec=7b2261652d676c6f7365617263682d7765623b32223a223065613732373037313333646632313138623931346237666334316133643335434b76737a2f7346454e612f72662b346b4b615058513d3d227d; JSESSIONID=AA1BF4C45A87978E493956BC66E4034F; JSESSIONID=CEABBDC6467CAE2E7E08AFF033AD1A69'
+    'cookie': '_uab_collina=160266968734004340056059; XSRF-TOKEN=4b92326e-5e92-420e-a7ca-fe2e8d3a1f46; _bl_uid=Fhkz4gq095L8my5OnjI5zCp92sh2; JSESSIONID=7272BA9A797C49E1FE53FF7E5973B3E3; JSESSIONID=97547A807D2DFCB920775463F4DF0EA4'
 }
 
-# headers['cookie'] += '; aep_usuc_f=site=glo&c_tp=GBP&region=UK&b_locale=en_US; '
+headers['cookie'] += '; aep_usuc_f=site=glo&c_tp=GBP&region=UK&b_locale=en_US; '
 
 ali_catids = set()
 links = []
@@ -85,20 +84,29 @@ def crawl_translate_infos():
             r = csv.reader(r)
             for product in r:
                 ids.add(product[0])
+                urls.add(product[2])
     else:
         with open('ali_translate.csv', 'w') as w:
             w = csv.writer(w)
             w.writerow(['id', 'language', 'url', 'title', 'desc'])
-    n = 2000 - len(ids)
+    n = 2000
     while len(urls) < n:
         link = random.choice(links)
         urls.add(link)
-    with open('ali_translate.csv', 'w') as w:
+    with open('ali_translate.csv', 'a') as w:
         w = csv.writer(w)
+        cnt = 0
         for i, url in enumerate(urls):
-            print(i + 1, url)
+            print(i + 1, 'http:' +url)
             rst = crawl_infos(url)
-            w.writerows(rst)
+            if rst:
+                w.writerows(rst)
+                cnt = 0
+            else:
+                cnt += 1
+                if cnt > 3:
+                    print('failed.... change cookie')
+                    break
 
 
 def crawl_infos(url):
@@ -114,18 +122,27 @@ def crawl_infos(url):
         for lang in ['id', 'ko', 'ar', 'de', 'es', 'fr', 'it', 'nl', 'pt', 'th', 'tr', 'vi', 'he', 'ja', 'pl']:
             lang_url = 'https://%s.aliexpress.com/item/%s.html' % (lang, id)
             lang_urls[lang] = lang_url
-
+        tmp_headers = {'cookie': headers['cookie'] + '; aep_usuc_f=site=glo&c_tp=USD&region=US&b_locale=en_US;'}
         for lang, url in lang_urls.items():
+            if lang not in ['en', 'id']:
+                continue
             line = [id, lang, url]
-            line += crawl_info(url)
+            h = headers
+            if lang == 'en':
+                h = tmp_headers
+            info = crawl_info(url, h)
+            if info:
+                line += info
+            else:
+                return None
             rst.append(line)
             print(url)
             print(line)
     return rst
 
 
-def crawl_info(url):
-    page = crawl_util.crawl(url)
+def crawl_info(url, h=None):
+    page = crawl_util.crawl(url, headers=h)
     content = page.content.decode('utf-8')
     infos = re.findall(r'window.runParams\s*=\s*(\{[\s\S]*?\});', content)
     info = infos[0] if infos else '{}'
@@ -139,7 +156,9 @@ def crawl_info(url):
             title = info['pageModule']['title']
             desc = info['pageModule']['description']
             return [title, desc]
-    return ['', '']
+    with open('a.html', 'w') as w:
+        w.write(content)
+    return None
 
 
 def read_csv():

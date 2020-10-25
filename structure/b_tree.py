@@ -179,10 +179,10 @@ if __name__ == '__main__':
     for i in s.split(' '):
         tree.add(int(i))
     # tree.add(3)
-    print tree.root
+    print(tree.root)
     tree.delete(11)
     tree.delete(10)
-    print tree.root
+    print(tree.root)
     # tree.add(1)
     # tree.add(3)
     # tree.add(10)

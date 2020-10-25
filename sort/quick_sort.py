@@ -39,8 +39,8 @@ def partition_2(a, start, end):
     index = start - 1
     for i in range(start, end + 1):
         if a[i] < v:
-            a[i], a[index + 1] = a[index + 1], a[i]
             index += 1
+            a[i], a[index] = a[index], a[i]
     return index + 1
 
 

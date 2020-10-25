@@ -6,7 +6,7 @@ def permutation(data, start=0):
     :return:
     """
     if start == len(data):
-        print data
+        print(data)
         return
 
     permutation(data, start + 1)
