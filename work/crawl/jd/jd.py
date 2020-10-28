@@ -170,19 +170,3 @@ def get_all_pro():
 
 if __name__ == '__main__':
     get_all_pro()
-
-# def fix_data():
-#     f = 'jd_cate_pro.csv'
-#     rows = []
-#     with open(f, 'r') as r:
-#         r = csv.reader(r)
-#         for row in r:
-#             rows.append(row)
-#             if row[3] == '品牌' and row[4] == '[]':
-#                 new_urls, pros = get_cate_pro(row[0])
-#                 for pro in pros:
-#                     if pro[3] == '品牌':
-#                         row[4] = pro[4]
-#     with open(f, 'w') as w:
-#         w = csv.writer(w)
-#         w.writerows(rows)

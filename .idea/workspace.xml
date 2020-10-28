@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e887ec4-00db-4710-9cf9-6b7a589f078e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/quick_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/avl_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/structure/avl_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/b_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/structure/b_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/TrustMeAlready" beforeDir="false" afterPath="$PROJECT_DIR$/work/TrustMeAlready" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/TrustMeAlready/app/src/main/java/com/virb3/trustmealready/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/TrustMeAlready/app/src/main/java/com/virb3/trustmealready/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/aliexpress.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/aliexpress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/crawl/jd/jd.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/jd/jd.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +280,7 @@
       <workItem from="1600420055171" duration="42465000" />
       <workItem from="1601437847477" duration="9856000" />
       <workItem from="1602477152354" duration="16000" />
-      <workItem from="1602555857279" duration="80636000" />
+      <workItem from="1602555857279" duration="83096000" />
     </task>
     <servers />
   </component>
