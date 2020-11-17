@@ -44,6 +44,16 @@ def partition_2(a, start, end):
     return index + 1
 
 
+def partition_3(a, start, end):
+    v = a[end]
+    index = end + 1
+    for i in range(end, start-1, -1):
+        if a[i] > v:
+            index -= 1
+            a[i], a[index] = a[index], a[i]
+    return index - 1
+
+
 def quick_sort(data, start, end, func=partition):
     if start >= end:
         return
@@ -54,5 +64,5 @@ def quick_sort(data, start, end, func=partition):
 
 
 num = [5, 1, 9, 2, 4]
-quick_sort(num, 0, len(num) - 1, partition_2)
+quick_sort(num, 0, len(num) - 1, partition_3)
 print(num)
