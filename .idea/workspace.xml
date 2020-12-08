@@ -21,14 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5e887ec4-00db-4710-9cf9-6b7a589f078e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/sub_seq_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/sub_seq_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/sub_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/sub_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/catalan.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/catalan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/num_sum_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/num_sum_seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/page_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/page_rank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/fm.py" beforeDir="false" afterPath="$PROJECT_DIR$/rec/fm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/TrustMeAlready" beforeDir="false" afterPath="$PROJECT_DIR$/work/TrustMeAlready" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/TrustMeAlready/app/src/main/java/com/virb3/trustmealready/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/TrustMeAlready/app/src/main/java/com/virb3/trustmealready/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/crawl/selenuim/browser_seleniumwire_crawl_aliyun_org.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/work/crawl/selenuim/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/selenuim/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/crawl/selenuim/trademark.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/selenuim/trademark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/taobao/taobao_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/taobao/taobao_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/crawl/taobao/taobao_brand.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/taobao/taobao_brand.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,51 @@
       <recent name="$PROJECT_DIR$/work/crawl/amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sub_sum">
+  <component name="RunManager" selected="Python.binary_search">
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="catalan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/catalan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="gmm" type="PythonConfigurationType" factoryName="Python">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_cut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="num_sum_seq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/max_cut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/num_sum_seq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sub_seq_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="taobao_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,56 +196,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/crawl/selenuim" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/sub_seq_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sub_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/sub_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="taobao_brand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work/crawl/taobao" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/crawl/taobao/taobao_brand.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/crawl/selenuim/taobao_shop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,18 +235,18 @@
     <list>
       <item itemvalue="Python.gmm" />
       <item itemvalue="Python.trademark" />
-      <item itemvalue="Python.taobao_brand" />
-      <item itemvalue="Python.sub_seq_sum" />
-      <item itemvalue="Python.max_cut" />
-      <item itemvalue="Python.sub_sum" />
+      <item itemvalue="Python.catalan" />
+      <item itemvalue="Python.taobao_shop" />
+      <item itemvalue="Python.num_sum_seq" />
+      <item itemvalue="Python.binary_search" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sub_sum" />
-        <item itemvalue="Python.max_cut" />
+        <item itemvalue="Python.binary_search" />
+        <item itemvalue="Python.taobao_shop" />
+        <item itemvalue="Python.num_sum_seq" />
+        <item itemvalue="Python.catalan" />
         <item itemvalue="Python.trademark" />
-        <item itemvalue="Python.sub_seq_sum" />
-        <item itemvalue="Python.taobao_brand" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +290,7 @@
       <workItem from="1602477152354" duration="16000" />
       <workItem from="1602555857279" duration="216503000" />
       <workItem from="1604968211345" duration="84000" />
-      <workItem from="1604968308688" duration="97114000" />
+      <workItem from="1604968308688" duration="146477000" />
     </task>
     <servers />
   </component>
@@ -330,10 +332,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1598926709058" />
-    <state x="704" y="471" key="#xdebugger.evaluate" timestamp="1605192300063">
+    <state x="704" y="471" key="#xdebugger.evaluate" timestamp="1607320207922">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="704" y="471" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1605192300063" />
+    <state x="704" y="471" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1607320207922" />
     <state width="1548" height="466" key="DebuggerActiveHint" timestamp="1598849300288">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -342,54 +344,54 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="493" y="375" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1598268629357" />
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1605600993266">
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1607409612799">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605600993266" />
-    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1605600993265">
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1607409612799" />
+    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1607409612798">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605600993265" />
-    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1605600993264">
+    <state width="1638" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1607409612798" />
+    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1607409612798">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605600993264" />
-    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1605600993265">
+    <state width="1638" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1607409612798" />
+    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1607409612798">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605600993265" />
-    <state width="1638" height="280" key="GridCell.Tab.1.bottom" timestamp="1605192379412">
+    <state width="1638" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1607409612798" />
+    <state width="1638" height="280" key="GridCell.Tab.1.bottom" timestamp="1607320214619">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605192379412" />
-    <state width="1638" height="280" key="GridCell.Tab.1.center" timestamp="1605192379412">
+    <state width="1638" height="280" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1607320214619" />
+    <state width="1638" height="280" key="GridCell.Tab.1.center" timestamp="1607320214619">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605192379412" />
-    <state width="1638" height="280" key="GridCell.Tab.1.left" timestamp="1605192379411">
+    <state width="1638" height="280" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1607320214619" />
+    <state width="1638" height="280" key="GridCell.Tab.1.left" timestamp="1607320214618">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605192379411" />
-    <state width="1638" height="280" key="GridCell.Tab.1.right" timestamp="1605192379412">
+    <state width="1638" height="280" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1607320214618" />
+    <state width="1638" height="280" key="GridCell.Tab.1.right" timestamp="1607320214619">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605192379412" />
+    <state width="1638" height="280" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1607320214619" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1599386273969">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599386273969" />
-    <state width="840" height="513" key="XDebugger.FullValuePopup" timestamp="1603443071603">
+    <state width="840" height="513" key="XDebugger.FullValuePopup" timestamp="1607318340539">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="840" height="513" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1603443071603" />
-    <state x="538" y="169" width="604" height="735" key="find.popup" timestamp="1600742216123">
+    <state width="840" height="513" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1607318340539" />
+    <state x="538" y="169" width="604" height="735" key="find.popup" timestamp="1607237697840">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="538" y="169" width="604" height="735" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1600742216123" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1605258373160">
+    <state x="538" y="169" width="604" height="735" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1607237697840" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1606975485220">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1605258373160" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1606975485220" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/alg$selenium_shop.coverage" NAME="selenium_shop Coverage Results" MODIFIED="1601445150240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
@@ -407,19 +409,21 @@
     <SUITE FILE_PATH="coverage/alg$gmm.coverage" NAME="gmm Coverage Results" MODIFIED="1594007711450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cluster" />
     <SUITE FILE_PATH="coverage/alg$word2vec__2_.coverage" NAME="word2vec (2) Coverage Results" MODIFIED="1595416741964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/embedding/word2vec" />
     <SUITE FILE_PATH="coverage/alg$parent_node.coverage" NAME="parent_node Coverage Results" MODIFIED="1598150263934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1607409612792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$huffuman_tree.coverage" NAME="huffuman_tree Coverage Results" MODIFIED="1594905021060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1563940557193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$b_tree.coverage" NAME="b_tree Coverage Results" MODIFIED="1564489192351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$maxsum.coverage" NAME="maxsum Coverage Results" MODIFIED="1598343443357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$max_hp.coverage" NAME="max_hp Coverage Results" MODIFIED="1593745347943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
-    <SUITE FILE_PATH="coverage/alg$trademark.coverage" NAME="trademark Coverage Results" MODIFIED="1605524462025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
+    <SUITE FILE_PATH="coverage/alg$trademark.coverage" NAME="trademark Coverage Results" MODIFIED="1606481842593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$gupiao.coverage" NAME="gupiao Coverage Results" MODIFIED="1600236135959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$word2vec__1_.coverage" NAME="word2vec (1) Coverage Results" MODIFIED="1594974813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/word2vec" />
+    <SUITE FILE_PATH="coverage/alg$catalan.coverage" NAME="catalan Coverage Results" MODIFIED="1606975364786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$sqrt.coverage" NAME="sqrt Coverage Results" MODIFIED="1596458810368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$huffuman.coverage" NAME="huffuman Coverage Results" MODIFIED="1563936996659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$knn.coverage" NAME="knn Coverage Results" MODIFIED="1593744780092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
     <SUITE FILE_PATH="coverage/alg$heap_sort.coverage" NAME="heap_sort Coverage Results" MODIFIED="1593744345515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/alg$num_sum_seq.coverage" NAME="num_sum_seq Coverage Results" MODIFIED="1597119069499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$num_sum_seq.coverage" NAME="num_sum_seq Coverage Results" MODIFIED="1607259576650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$amazon.coverage" NAME="amazon Coverage Results" MODIFIED="1600229305488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/amazon" />
     <SUITE FILE_PATH="coverage/alg$selenuim.coverage" NAME="selenuim Coverage Results" MODIFIED="1598847115303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$red_black_tree.coverage" NAME="red_black_tree Coverage Results" MODIFIED="1564583128469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
@@ -428,6 +432,7 @@
     <SUITE FILE_PATH="coverage/alg$ball_tree.coverage" NAME="ball_tree Coverage Results" MODIFIED="1593755179377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$sub_set.coverage" NAME="sub_set Coverage Results" MODIFIED="1594963760070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$bracket.coverage" NAME="bracket Coverage Results" MODIFIED="1597913548619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$taobao_shop.coverage" NAME="taobao_shop Coverage Results" MODIFIED="1607329513095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$twitter.coverage" NAME="twitter Coverage Results" MODIFIED="1601439331745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
     <SUITE FILE_PATH="coverage/alg$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1604048913445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/alg$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1593744309082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />

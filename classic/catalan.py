@@ -27,15 +27,115 @@ def catalan_cnt(n):
 
 def bracket_dfs(n, left=0, right=0, path=''):
     if left == n and right == n:
-        print(path)
-        return
-
+        return [path]
+    res = []
     if left < n:
-        bracket_dfs(n, left + 1, right, path + '(')
+        res += bracket_dfs(n, left + 1, right, path + '(')
 
     if left > right:
-        bracket_dfs(n, left, right + 1, path + ')')
+        res += bracket_dfs(n, left, right + 1, path + ')')
+    return res
 
 
-print(bracket_dfs(3))
-# bracket_dfs(3)
+def bracket_dfs_1(n, used=0, left=0, path=''):
+    if left == 0 and n == used:
+        return [path]
+    res = []
+    if left > 0:
+        res += bracket_dfs_1(n, used, left - 1, path + ')')
+    if n > used:
+        res += bracket_dfs_1(n, used + 1, left + 1, path + '(')
+    return res
+
+
+def bracket_dfs_2(n):
+    brackets = [('', 0, 0)]
+    for i in range(n * 2):
+        for j, bracket in enumerate(brackets):
+            s, left, right = bracket
+            modify = False
+            if left < n:
+                modify = True
+                brackets[j] = (s + '(', left + 1, right)
+            if right < left:
+                new_bracket = (s + ')', left, right + 1)
+                if modify:
+                    brackets.append(new_bracket)
+                else:
+                    brackets[j] = new_bracket
+    return [b[0] for b in brackets]
+
+
+def bracket_dfs_3(n, stack=0, res=''):
+    if n == 0:
+        x = stack
+        res += '(' * x + ')' * x
+        print(res)
+        return
+
+    if n > 0:
+        # 入栈
+        bracket_dfs_3(n - 1, stack + 1, res)
+
+    out = ''
+    while stack > 0:
+        # 出栈
+        stack -= 1
+        out = '(' + out + ')'
+        bracket_dfs_3(n - 1, stack + 1, res + out)
+
+
+def bracket_dfs_4(left_remain, left_stack=0, res=''):
+    if left_remain == 0:
+        print(res + ')' * left_stack)
+        return
+    # ( 入栈
+    bracket_dfs_4(left_remain - 1, left_stack + 1, res + '(')
+    if stack > 0:
+        # ( 出栈 + ）
+        bracket_dfs_4(left_remain, left_stack - 1, res + ')')
+
+
+def stack_out(arr, start=0, stack=[], path=[]):
+    if start == len(arr):
+        path = path + stack[::-1]
+        return [path]
+    else:
+        res = []
+        # 入栈
+        res += stack_out(arr, start + 1, stack + [arr[start]], path)
+        pop = []
+        # 出栈在入栈
+        while stack:
+            pop.append(stack.pop())
+            res += stack_out(arr, start + 1, stack + [arr[start]], path + pop)
+        return res
+
+
+def stack_out_1(arr):
+    results = [([], [])]
+    for i in range(len(arr)):
+        new_results = []
+        for stack, path in results:
+            new_results.append((stack + [arr[i]], path))
+            pop = []
+            while stack:
+                pop.append(stack.pop())
+                new_results.append((stack + [arr[i]], path + pop))
+        results = new_results
+    res = [path + stack[::-1] for stack, path in results]
+    return res
+
+
+# print(bracket_dfs(3))
+# print('------')
+# print(bracket_dfs_1(3))
+# print('------')
+# print(bracket_dfs_2(3))
+# print('------')
+# print(stack_out([1, 2, 3]))
+# print('------')
+# print(stack_out_1([1, 2, 3]))
+
+# bracket_dfs_3(3)
+bracket_dfs_4(3)

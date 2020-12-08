@@ -57,8 +57,6 @@ def brand_trademark():
                     except:
                         print('failed, %s' % name)
                     for i, catId in enumerate(catIds):
-                        # if i > 2:
-                        #     break
                         url = 'https://baike.taobao.com/brandCategoryApply.htm?actionType=searchAppliableBrandCategories&categoryId=%s&brandName=%s' % (
                             catId, name)
                         if url in urls:

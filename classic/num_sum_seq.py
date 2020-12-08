@@ -5,7 +5,7 @@ import math
 
 def get_num_sum(s):
     n = len(s)
-    for i in range(n / 2):
+    for i in range(n // 2):
         num1 = s[0: i + 1]
         x = int(math.ceil((n + i) / 2.0))
         for j in range(i + 1, x):

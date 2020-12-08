@@ -326,9 +326,10 @@ if __name__ == '__main__':
         try:
             get_chrome()
             # get_firefox()
-            if ali_trademark():
-                break
-            # official_trademark('阿里')
+            # if ali_trademark():
+            #     break
+            official_trademark('阿里')
+            break
             # wipo('nike')
         except Exception as e:
             driver.close()
