@@ -1,8 +1,10 @@
-#coding=utf-8
+# coding=utf-8
 
 import random
 
-s = 2*3.14
+s = 2 * 3.14
+
+
 def get_ruijiao(n=10000):
     for i in range(n):
         p1 = random.random() % s

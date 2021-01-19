@@ -72,4 +72,4 @@ def three_d(heightMap):
     return v
 
 
-print tow_d([4, 2, 1, 2, 3])
+print(tow_d([4, 2, 1, 2, 3]))

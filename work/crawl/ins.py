@@ -12,12 +12,14 @@ import threading
 import traceback
 import crawl_util
 
-email = '79858908@qq.com'
+email = 'viking.liu@qq.com'
 password = 'viking138246s'
 lock = threading.Lock
 headers = {
     'User-Agent': 'Instagram 35.0.0.20.96 Android (23/6.0.1; 416dpi; 1170x1872; HUAWEI; Mate 10 Pro; x86; cancro; zh_CN; 95414347)',
-    'Content-Type': 'application/x-www-form-urlencoded'}
+    'Content-Type': 'application/x-www-form-urlencoded',
+    # 'X-IG-App-ID': '567067343352427'
+}
 
 
 def crawl_followers(userids):
@@ -85,12 +87,14 @@ def crawl_user_info(userid, cookies):
     else:
         print(url, rsp)
 
+
 def login():
-    d = {"phone_id": "e40cf722-2116-474e-b7dc-fccdc5e01c50", "username": email,
-         "adid": "2acaf82e-080f-404d-8268-50d487a7c5e2", "guid": "758492fb-2663-4f27-a99c-beedcf904d33",
-         "device_id": "android-b209e9dbbbf0f081", "password": password, "login_attempt_count": "0"}
+    d = {"phone_id": "0066d903-6783-4a15-a066-3155d3e43435", "_csrftoken": "PqRg5VnrYGr6S8NrMuptqMDqmCFdYPxL",
+         "username": email, "adid": "8896cc27-e0b3-40a3-a6a3-5bf1580ab45a",
+         "guid": "dd0a125f-9663-485b-a54a-e457e831005a", "device_id": "android-a869eb67a6513281",
+         "password": password, "login_attempt_count": "0"}
     d = json.dumps(d)
-    signed_body = 'd17c8c06534e46f3db82b1915fa5a178a29ff8e0728c71eef426fef60fe716bf.' + d
+    signed_body = '122abdda46e3ec4a4a2cf45323eaee0072ee9876b6e5e05dd6813b4815571f89.' + d
     data = dict(signed_body=signed_body, ig_sig_key_version=4)
     api = 'https://i.instagram.com/api/v1/accounts/login/'
     rsp = crawl_util.crawl(api, data=data, method='post', headers=headers)
@@ -121,6 +125,7 @@ def crawl_users(userids=None):
                     'follower': user_info.get('follower_count', 0),
                     'extra': json.dumps(user_info)
                 }
+                print(user)
                 print('%s/%s update user %s email:%s' % (i + 1, len(userids), userid, user['email']))
             except Exception as e:
                 print('except fail: %s, e:%s' % (userid, e))

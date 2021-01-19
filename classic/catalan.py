@@ -91,7 +91,7 @@ def bracket_dfs_4(left_remain, left_stack=0, res=''):
         return
     # ( 入栈
     bracket_dfs_4(left_remain - 1, left_stack + 1, res + '(')
-    if stack > 0:
+    if left_stack > 0:
         # ( 出栈 + ）
         bracket_dfs_4(left_remain, left_stack - 1, res + ')')
 
@@ -127,6 +127,30 @@ def stack_out_1(arr):
     return res
 
 
+cache = {}
+
+
+def print_n_pair(n):
+    if n == 0:
+        return ['']
+    if n == 1:
+        return ['()']
+    if n in cache:
+        return cache[n]
+    res = []
+    for i in range(1, n + 1):
+        left = print_n_pair(i - 1)
+        right = print_n_pair(n - i)
+        for l in left:
+            for r in right:
+                res.append('(' + l + ')' + r)
+    if n not in cache:
+        cache[n] = res
+    return res
+
+
+print(print_n_pair(4))
+
 # print(bracket_dfs(3))
 # print('------')
 # print(bracket_dfs_1(3))
@@ -138,4 +162,4 @@ def stack_out_1(arr):
 # print(stack_out_1([1, 2, 3]))
 
 # bracket_dfs_3(3)
-bracket_dfs_4(3)
+bracket_dfs_4(4)

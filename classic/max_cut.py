@@ -2,6 +2,7 @@
 
 # N = a1+a2+a3...+am
 # max(a1*a2*a3...*am)
+# dp[i] = dp[j] * dp[i-j]  for 2 .. i/2
 def max_cut_0(N, dp={}):
     if N <= 3:
         return N, [N]
@@ -21,8 +22,10 @@ def max_cut_0(N, dp={}):
 
 
 def max_cut(N):
+    if N < 4:
+        return N, [N]
     v = N % 3
-    e = int(N / 3)
+    e = N // 3
     if v == 2:
         return 2 * (3 ** e), [2] + ([3] * e)
     if v == 1:
@@ -38,10 +41,12 @@ def max_cut_no_dup(N):
     n = 2
     while cur_sum < N:
         if cur_sum + n > N:
-            n = N - cur_sum
+            # rest
+            pre = n
+            rest = N - cur_sum
             for m in seq:
-                if n + m not in seq:
-                    n += m
+                if rest + m not in seq:
+                    n = m + rest
                     seq.remove(m)
                     cur_sum -= m
                     res //= m
@@ -55,6 +60,7 @@ def max_cut_no_dup(N):
 
 
 n = 25
-print(max_cut(n))
-print(max_cut_0(n))
-print(max_cut_no_dup(n))
+# print(max_cut(n))
+# print(max_cut_0(n))
+for n in range(1, 21):
+    print(n,max_cut (n))

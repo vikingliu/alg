@@ -39,8 +39,43 @@ def is_same(root1, root2):
     return False
 
 
+def cal_height(root):
+    if root is None:
+        return 0
+    root.left_height = cal_height(root.left) + 1
+    root.right_height = cal_height(root.right) + 1
+    return max(root.left_height, root.right_height)
+
+
 def is_in(rootA, rootB):
-    pass
+    cal_height(rootA)
+    cal_height(rootB)
+
+    def _is_in(_rootA, _rootB):
+        if _rootA is None and _rootB is None:
+            return True
+        if _rootA is not None and _rootB is not None:
+            if _rootA.left_height < _rootB.left_height or _rootA.right_height < _rootB.right_height:
+                return False
+
+        rst = __is_in(_rootA, _rootB)
+        if rst:
+            return rst
+        return _is_in(_rootA.left, _rootB) or _is_in(_rootA.right, _rootB)
+
+    return _is_in(rootA, rootB)
+
+
+def __is_in(rootA, rootB):
+    if rootA is None and rootB is None:
+        return True
+    if rootA is not None and rootB is not None:
+        if rootA.left_height < rootB.left_height or rootA.right_height < rootB.right_height:
+            return False
+        return __is_in(rootA.left, rootB.left) and __is_in(rootA.right, rootB.right)
+    if rootA is None:
+        return False
+    return True
 
 
 root = Node(1, Node(3, Node(1)), Node(2, None, Node(2)))
