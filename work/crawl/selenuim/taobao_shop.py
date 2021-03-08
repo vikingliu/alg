@@ -32,13 +32,9 @@ def get_chrome():
     # options.add_experimental_option("excludeSwitches", ["enable-automation"])
     # options.add_experimental_option('useAutomationExtension', False)
     driver = webdriver.Chrome(options=options)
-
+    js = open('stealth.min.js').read()
     driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-        "source": """
-        Object.defineProperty(navigator, 'webdriver', {
-          get: () => undefined
-        })
-      """
+        "source": js
     })
 
 
@@ -67,7 +63,7 @@ def taobao_shop():
         WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
             (By.XPATH, '//ul[@class="menu-list"]')))
         lis = driver.find_elements_by_xpath('//li[@class="menu popup-container"]')
-        x = random.randint(0, len(lis)-1)
+        x = random.randint(0, len(lis) - 1)
         lis[x].click()
         time.sleep(2)
 
@@ -131,6 +127,13 @@ def get_details(cat):
     return details
 
 
+def tmall():
+    url = 'https://detail.tmall.com/item.htm?id=561858217677'
+    driver.get(url)
+    time.sleep(1000)
+
+
 if __name__ == '__main__':
     get_chrome()
-    taobao_shop()
+    tmall()
+    # taobao_shop()

@@ -37,12 +37,13 @@ def max_cut(N):
 def max_cut_no_dup(N):
     seq = set()
     res = 1
+    if N == 1:
+        return res, [1]
     cur_sum = 0
     n = 2
     while cur_sum < N:
         if cur_sum + n > N:
             # rest
-            pre = n
             rest = N - cur_sum
             for m in seq:
                 if rest + m not in seq:
@@ -59,8 +60,35 @@ def max_cut_no_dup(N):
     return res, list(seq)
 
 
+def max_cut_no_dup_1(N):
+    seq = []
+    res = 1
+    if N == 1:
+        return res, [1]
+    cur_sum = 0
+    n = 2
+    while cur_sum < N:
+        seq.append(n)
+        cur_sum += n
+        res *= n
+        n += 1
+
+    if cur_sum > N:
+        res = res // seq[-1]
+        cur = N - (cur_sum - seq[-1])
+        for i, item in enumerate(seq):
+            if item + cur > seq[-2]:
+                seq[i] = item + cur
+                res = res // item * seq[i]
+                seq = sorted(seq[:-1])
+                break
+
+    return res, list(seq)
+
+
 n = 25
 # print(max_cut(n))
 # print(max_cut_0(n))
-for n in range(1, 21):
-    print(n,max_cut (n))
+for n in range(1, 22):
+    print(n, max_cut_no_dup_1(n))
+    print(n, max_cut_no_dup(n))

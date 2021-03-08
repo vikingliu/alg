@@ -25,6 +25,21 @@ def catalan_cnt(n):
     return n2_factorial / (n_factorial * n_factorial * (n + 1))
 
 
+def print_n_pair_1(nums):
+    n = len(nums)
+    dp = [0] * (n + 1)
+    dp[0] = [[]]
+    for i in range(1, n + 1):
+        dp[i] = []
+        for j in range(0, i):
+            left = dp[j]
+            right = dp[i - j - 1]
+            for l in left:
+                for r in right:
+                    dp[i].append(l + [nums[i - 1]] + r)
+    return dp[-1]
+
+
 def bracket_dfs(n, left=0, right=0, path=''):
     if left == n and right == n:
         return [path]
@@ -128,28 +143,6 @@ def stack_out_1(arr):
 
 
 cache = {}
-
-
-def print_n_pair(n):
-    if n == 0:
-        return ['']
-    if n == 1:
-        return ['()']
-    if n in cache:
-        return cache[n]
-    res = []
-    for i in range(1, n + 1):
-        left = print_n_pair(i - 1)
-        right = print_n_pair(n - i)
-        for l in left:
-            for r in right:
-                res.append('(' + l + ')' + r)
-    if n not in cache:
-        cache[n] = res
-    return res
-
-
-print(print_n_pair(4))
 
 # print(bracket_dfs(3))
 # print('------')

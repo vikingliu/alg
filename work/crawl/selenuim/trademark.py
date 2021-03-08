@@ -130,19 +130,8 @@ def is_aliyun_ready():
                     div = div[0]
                     tracks = get_tracks(300)
                     ActionChains(driver).move_to_element(div)
-                    for i in range(10, 400, 40):
-                        x = i + random.randint(0, 40)
-                        y = round(random.uniform(1.0, 5.0), 1)
-                        ActionChains(driver).move_to_element_with_offset(to_element=div, xoffset=x, yoffset=y).perform()
-                        t = random.uniform(0, 1.0)
-                        time.sleep(t)
-
-                    for i in range(400, 40, -40):
-                        x = i + random.randint(-40, 0)
-                        y = round(random.uniform(1.0, 5.0), 1)
-                        ActionChains(driver).move_to_element_with_offset(to_element=div, xoffset=x, yoffset=y).perform()
-                        t = random.uniform(0, 1.0)
-                        time.sleep(t)
+                    for x in tracks:
+                        ActionChains(driver).move_to_element_with_offset(to_element=div, xoffset=x, yoffset=0).perform()
 
                     time.sleep(1)
 
@@ -280,13 +269,9 @@ def get_chrome():
     # options.add_experimental_option("excludeSwitches", ["enable-automation"])
     # options.add_experimental_option('useAutomationExtension', False)
     driver = webdriver.Chrome(options=options)
-
+    js = open('stealth.min.js').read()
     driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-        "source": """
-        Object.defineProperty(navigator, 'webdriver', {
-          get: () => undefined
-        })
-      """
+        "source": js
     })
     driver.delete_all_cookies()
 
@@ -326,9 +311,9 @@ if __name__ == '__main__':
         try:
             get_chrome()
             # get_firefox()
-            # if ali_trademark():
-            #     break
-            official_trademark('阿里')
+            if ali_trademark():
+                break
+            # official_trademark('阿里')
             break
             # wipo('nike')
         except Exception as e:
