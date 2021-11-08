@@ -50,11 +50,15 @@ def coin_change(amount, coins):
     """
     dp = [0] * (amount + 1)
     dp[0] = 1
+    dp_s = [[] for _ in range(amount + 1)]
+    dp_s[0] = [[]]
     for c in coins:
         for i in range(c, amount + 1):
             dp[i] += dp[i - c]
-    print(dp)
-    return dp[amount]
+            for l in dp_s[i-c]:
+                dp_s[i].append([c] + l)
+
+    return dp[amount], dp_s[amount]
 
 
 print(coin_change(9, [1, 2, 5, 10]))

@@ -190,7 +190,7 @@ cap = DesiredCapabilities.FIREFOX
 driver = webdriver.Firefox(capabilities=cap, options=options)
 
 if __name__ == '__main__':
-    # taobao()
+    taobao()
     # pdd()
-    ali()
+    # ali()
     # amazon()

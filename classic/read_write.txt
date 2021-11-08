@@ -123,73 +123,42 @@ cobegin
 }
 
 read(int i)   /* 读者 */
-
 {
-
-  while (1) {
-
-P(write);  //没有写者则可以读
-
-P(Rmutex)；
-
-readcount++；
-
-if (readcount==1)
-
-  P(mutex)；/* 如果该读者是第1位读者，则申请进入读操作，否则直接进入。*/
-
-V(Rmutex)；
-
-V(write);
-
-读数据；
-
-P(Rmutex)；/* 读完后离开时，修改readcount变量。*/
-
-readcount--；
-
-if (readcount==0)
-
-  V(mutex)；/* 当读者全部离开时，释放数据文件资源，并负责唤醒写者。*/
-
-   V（Rmutex）；
-
- }
-
+      while (1) {
+           P(write);  //没有写者则可以读
+           P(Rmutex)；
+           readcount++；
+           if (readcount==1)
+               P(mutex)；/* 如果该读者是第1位读者，则申请进入读操作，否则直接进入。*/
+           V(Rmutex)；
+           V(write);
+           读数据；
+           P(Rmutex)；/* 读完后离开时，修改readcount变量。*/
+           readcount--；
+           if (readcount==0)
+               V(mutex)；/* 当读者全部离开时，释放数据文件资源，并负责唤醒写者。*/
+           V（Rmutex）；
+     }
 }
 
 write(int i)       /* 写者 */
-
 {
-
   while(1){
+        P(Wmutex)；
+        writecount++；
+        if (writecount==1)
+            P(write); //写者到，则阻止后继读者
+        V(Wmutex)；
 
-P(Wmutex)；
+        P(mutex);
+           写数据；
+        V(mutex);
 
-writecount++；
-
-if (writecount==1)
-
-  P(write); //写者到，则阻止后继读者
-
-V(Wmutex)；
-
-   P(mutex);   
-
-   写数据；
-
-   V(mutex);
-
-P(Wmutex)；/* 写完后离开时，修改writecount变量。*/
-
-writecount--；
-
-if (writecount==0)
-
-  V(write)；/* 当写者全部离开时，释放数据文件资源，并负责唤醒读者。*/
-
-   V（Wmutex）；   
-
+        P(Wmutex)；/* 写完后离开时，修改writecount变量。*/
+        writecount--；
+        if (writecount==0)
+            V(write)；/* 当写者全部离开时，释放数据文件资源，并负责唤醒读者。*/
+        V（Wmutex）；
   }
 
 }
@@ -197,89 +166,52 @@ if (writecount==0)
 3. 读者与写者公平算法
 无写者，则多个读者可同时读，有写者请求，则后来的读者不能进入。在一个写操作结束时，所有等待的读者应该比下一个写者有更高的优先权。
 
-
 int readcount=0；  /* 正在读的读者数 */
-
 semaphore mutex=1；/* 对数据文件进行保护的互斥信号量 */
-
 semaphore Rmutex=1；/* 对变量readcount进行保护的互斥信号量 */
-
 semaphore first=1; /* 用于写者来了后，后续读者不能读，
-
     或一个写者结束后，在下一个写者之前请求读的读者先进入读操作。*/
 
 main()
-
 {
-
   创建M个读者进程read(i)；   /* i表示第i个读者 */
-
-创建N个写者进程write(i)；  /* i表示第i个写者 */
-
-cobegin
-
+  创建N个写者进程write(i)；  /* i表示第i个写者 */
+  cobegin
      read(1)；read(2)；……；read(M)；   /* 并发执行的M个读者 */
-
      write(1)；write(2)；……；write(N)；/* 并发执行的N个写者 */
-
-   coend
-
+  coend
 }
 
 read(int i)   /* 读者 */
-
 {
-
   while (1) {
+        P(first) /*若有写者，则阻塞等待*/
+        P(Rmutex)；
+        readcount++；
+        if (readcount==1)
+            P(mutex)；/* 如果该读者是第1位读者，则申请进入读操作，否则直接进入。*/
+        V(Rmutex)；
+        V(first);
 
-P(first) /*若有写者，则阻塞等待*/
+        读数据；
 
-P(Rmutex)；
-
-readcount++；
-
-if (readcount==1)
-
-  P(mutex)；/* 如果该读者是第1位读者，则申请进入读操作，否则直接进入。*/
-
-V(Rmutex)；
-
-V(first);
-
-读数据；
-
-P(Rmutex)；/* 读完后离开时，修改readcount变量。*/
-
-readcount--；
-
-if (readcount==0)
-
-  V(mutex)；/* 当读者全部离开时，释放数据文件资源，并负责唤醒写者。*/
-
-   V（Rmutex）；
-
+        P(Rmutex)；/* 读完后离开时，修改readcount变量。*/
+        readcount--；
+        if (readcount==0)
+            V(mutex)；/* 当读者全部离开时，释放数据文件资源，并负责唤醒写者。*/
+        V（Rmutex）；
  }
-
 }
 
 write(int i)       /* 写者 */
-
 {
-
   while(1){
-
-   P(first); /*无读者，则进入，否则等待*/ 
-
+   P(first); /*无读者，则进入，否则等待*/
    P(mutex)；
-
    写数据；
-
    V(mutex)；
-
    V(first);
-
   }
-
 }
 
 4. 类似问题的解答

@@ -5,35 +5,35 @@ def snake(data):
     total = m * n
     i, j = 0, 0
     cnt = 0
-    direction = 0  # 0=right, 1=down, 2=left, 3=up
+    direction = 'right'
     right, left, down, up = n - 1, 0, m - 1, 1
     while cnt < total:
         print(data[i][j], end=' ')
-        if direction == 0:
+        if direction == 'right':
             if j == right:
-                direction = 1
+                direction = 'down'
                 i += 1
                 right -= 1
             else:
                 j += 1
-        elif direction == 1:
+        elif direction == 'down':
             if i == down:
-                direction = 2
+                direction = 'left'
                 j -= 1
                 down -= 1
             else:
                 i += 1
             pass
-        elif direction == 2:
+        elif direction == 'left':
             if j == left:
-                direction = 3
+                direction = 'up'
                 i -= 1
                 left += 1
             else:
                 j -= 1
-        elif direction == 3:
+        elif direction == 'up':
             if i == up:
-                direction = 0
+                direction = 'right'
                 j += 1
                 up += 1
             else:

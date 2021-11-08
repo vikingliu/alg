@@ -6,7 +6,7 @@ def matrix_conv(matrix):
     for i in range(len(matrix)):
         row = {}
         for j in range(len(matrix[0])):
-            if matrix[i][j]:
+            if matrix[i][j] > 0:
                 row[(i, j)] = matrix[i][j]
         matrix_rows.append(row)
     return matrix_rows

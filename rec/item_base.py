@@ -41,7 +41,7 @@ def get_matrix(logs):
         items.add(item)
         users[user][item] = score
     items = sorted(items)
-    scores = [[0] * len(users) for _ in xrange(len(items))]
+    scores = [[0] * len(users) for _ in range(len(items))]
     co_occurrence = defaultdict(int)
     for j, value in enumerate(users.items()):
         for i, item in enumerate(items):
@@ -54,7 +54,7 @@ def get_matrix(logs):
             co_occurrence[(item1, item2)] += 1
             co_occurrence[(item2, item1)] += 1
 
-    A = [[0] * len(items) for _ in xrange(len(items))]
+    A = [[0] * len(items) for _ in range(len(items))]
 
     for i, item1 in enumerate(items):
         for j, item2 in enumerate(items):
@@ -64,4 +64,4 @@ def get_matrix(logs):
 
 
 A, scores = get_matrix(logs)
-# print(A.dot(scores))
+print(A.dot(scores))

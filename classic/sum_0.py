@@ -13,7 +13,7 @@ def get_comp(nums, i, pre, pre_sum, res):
 
 
 res = []
-nums = [-5, 3, 2, 1]
+nums = [-2, 3, 2, 1, 4, 2]
 n = len(nums)
 nums_sum = [0] * len(nums)
 s = 0
