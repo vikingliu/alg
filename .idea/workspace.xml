@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,20 +23,145 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e887ec4-00db-4710-9cf9-6b7a589f078e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/changes.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/changes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/read_write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classic/read_write.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/snake_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/snake_print.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/sum_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/classic/sum_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic/分配" beforeDir="false" afterPath="$PROJECT_DIR$/classic/分配" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rec/item_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/rec/item_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/TrustMeAlready" beforeDir="false" afterPath="$PROJECT_DIR$/work/TrustMeAlready" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/TrustMeAlready/app/src/main/java/com/virb3/trustmealready/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/TrustMeAlready/app/src/main/java/com/virb3/trustmealready/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/pdd_yangkeduo_spider" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/pdd_yangkeduo_spider" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/pdd_yangkeduo_spider/pdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/pdd_yangkeduo_spider/pdd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/crawl/selenuim/selenium_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/crawl/selenuim/selenium_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/bracket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/catalan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/changes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/dijkstra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/find_min.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/gen_sorted_num.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/max_cut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/max_increase_seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/max_multi_value.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/maxsum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/min_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/min_distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/min_speed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/num_sum_seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/page_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/parent_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/permutation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/quick_mi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/random_sample_maxv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/read_write.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/ruijiao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/snake_print.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/sqrt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/stock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/sub_seq_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/sub_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/sum_0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/two_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/walk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/water_area.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/x.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/分配" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic/概率问题" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/db_scan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/gmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/hcluster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/k_means.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster/k_means_plus_plus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/788points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gmm.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/bitmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/bloom.filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/histsimilar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/min_hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/p_hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/sim_hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/adaboost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/bayes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/boosting_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/crf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/decision_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/decision_tree_prune.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/em.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/gbdt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/gbt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/gd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/hmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/knn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/lgb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/lr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/max_hp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/ml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/perceptron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/random_forest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/svm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/xgboost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/bm25.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/crf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/doc2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/dssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/GloVe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/bert/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/bert/attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/bert/bert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/bert/transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/bert/transformer_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/doc2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/elmo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/fast_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/gpt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/huffman.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/cbow_neg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/cobw_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/const.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/skipgram_neg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/tf/skipgram_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/word2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/embedding/word2vec/word2vec_nn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/lda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/seq2seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/text_cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/text_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/tf_idf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn/cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn/dnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn/ffnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn/rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn/sequeeze_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn/softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/DIN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/dsmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/esmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/ffm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/fm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/i2i.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/item_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/svd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/user_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rec/wide_deep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/heap_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/merge_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/quick_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/avl_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/b_plus_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/b_plus_tree_other.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/b_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/ball_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/huffuman_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/kd_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/red_black_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/nn_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/xina.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +192,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -78,7 +207,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -102,29 +231,7 @@
       <recent name="$PROJECT_DIR$/structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.quick_mi">
-    <configuration name="changes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/changes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.matrix">
     <configuration name="gmm" type="PythonConfigurationType" factoryName="Python">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_increase_seq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +267,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/max_increase_seq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quick_mi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="min_diff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,7 +289,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/quick_mi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/min_diff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parent_node" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/parent_node.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sub_seq_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="alg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/sub_seq_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,43 +364,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="x" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classic/x.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.gmm" />
+      <item itemvalue="Python.sub_seq_sum" />
+      <item itemvalue="Python.min_diff" />
       <item itemvalue="Python.sum_0" />
-      <item itemvalue="Python.changes" />
-      <item itemvalue="Python.max_increase_seq" />
-      <item itemvalue="Python.x" />
-      <item itemvalue="Python.quick_mi" />
+      <item itemvalue="Python.parent_node" />
+      <item itemvalue="Python.matrix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.quick_mi" />
-        <item itemvalue="Python.max_increase_seq" />
-        <item itemvalue="Python.x" />
-        <item itemvalue="Python.changes" />
+        <item itemvalue="Python.matrix" />
+        <item itemvalue="Python.parent_node" />
         <item itemvalue="Python.sum_0" />
+        <item itemvalue="Python.sub_seq_sum" />
+        <item itemvalue="Python.min_diff" />
       </list>
     </recent_temporary>
   </component>
@@ -301,6 +430,20 @@
       <workItem from="1630416077807" duration="4829000" />
       <workItem from="1635409443334" duration="968000" />
       <workItem from="1635732018434" duration="206000" />
+      <workItem from="1636359617252" duration="7248000" />
+      <workItem from="1639468265850" duration="5941000" />
+      <workItem from="1645428227142" duration="2989000" />
+      <workItem from="1655095681961" duration="788000" />
+      <workItem from="1658402538318" duration="2391000" />
+      <workItem from="1667979369381" duration="5424000" />
+      <workItem from="1675146521208" duration="748000" />
+      <workItem from="1680161365341" duration="1772000" />
+      <workItem from="1682221898240" duration="66000" />
+      <workItem from="1682647226722" duration="5226000" />
+      <workItem from="1684392069567" duration="2981000" />
+      <workItem from="1688393970180" duration="14468000" />
+      <workItem from="1696297173559" duration="141272000" />
+      <workItem from="1705286069086" duration="24944000" />
     </task>
     <servers />
   </component>
@@ -330,42 +473,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1630416992818">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="267" key="GridCell.Tab.0.bottom" timestamp="1705583474185">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1630416992818" />
-    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1630416992817">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="267" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1705583474185" />
+    <state width="1638" height="267" key="GridCell.Tab.0.center" timestamp="1705583474184">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1630416992817" />
-    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1630416992816">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="267" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1705583474184" />
+    <state width="1638" height="267" key="GridCell.Tab.0.left" timestamp="1705583474184">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1630416992816" />
-    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1630416992817">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="267" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1705583474184" />
+    <state width="1638" height="267" key="GridCell.Tab.0.right" timestamp="1705583474184">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1630416992817" />
-    <state width="1638" height="280" key="GridCell.Tab.1.bottom" timestamp="1625199669327">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="267" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1705583474184" />
+    <state x="541" y="292" width="597" height="490" key="find.popup" timestamp="1699349209935">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1625199669327" />
-    <state width="1638" height="280" key="GridCell.Tab.1.center" timestamp="1625199669326">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1625199669326" />
-    <state width="1638" height="280" key="GridCell.Tab.1.left" timestamp="1625199669326">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1625199669326" />
-    <state width="1638" height="280" key="GridCell.Tab.1.right" timestamp="1625199669326">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="280" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1625199669326" />
-    <state x="538" y="291" width="604" height="490" key="find.popup" timestamp="1628736566625">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="538" y="291" width="604" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1628736566625" />
+    <state x="541" y="292" width="597" height="490" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1699349209935" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -375,80 +502,92 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/alg$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1613726993416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1705582692113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$selenium_shop.coverage" NAME="selenium_shop Coverage Results" MODIFIED="1601445150240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$lda.coverage" NAME="lda Coverage Results" MODIFIED="1594868552179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
     <SUITE FILE_PATH="coverage/alg$youtube_list_video.coverage" NAME="youtube_list_video Coverage Results" MODIFIED="1599386391807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
     <SUITE FILE_PATH="coverage/alg$item_base.coverage" NAME="item_base Coverage Results" MODIFIED="1616588018070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rec" />
-    <SUITE FILE_PATH="coverage/alg$sub_seq_sum.coverage" NAME="sub_seq_sum Coverage Results" MODIFIED="1605513930505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$sub_seq_sum.coverage" NAME="sub_seq_sum Coverage Results" MODIFIED="1705579672188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$taobao_brand.coverage" NAME="taobao_brand Coverage Results" MODIFIED="1605089246744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/taobao" />
     <SUITE FILE_PATH="coverage/alg$snake_print.coverage" NAME="snake_print Coverage Results" MODIFIED="1615265376378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$h5.coverage" NAME="taobao Coverage Results" MODIFIED="1598431782797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$output_sorted.coverage" NAME="gen_sorted_num Coverage Results" MODIFIED="1611556884155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$random_sample_maxv.coverage" NAME="random_sample_maxv Coverage Results" MODIFIED="1607943384610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$x.coverage" NAME="x Coverage Results" MODIFIED="1628762032879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$random_sample_maxv.coverage" NAME="random_sample_maxv Coverage Results" MODIFIED="1705566840618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$x.coverage" NAME="x Coverage Results" MODIFIED="1705567421597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$jd.coverage" NAME="jd Coverage Results" MODIFIED="1603444632156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/jd" />
     <SUITE FILE_PATH="coverage/alg$b_plus_tree_1.coverage" NAME="b_plus_tree_1 Coverage Results" MODIFIED="1564553137118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$taobao.coverage" NAME="selenium_shop Coverage Results" MODIFIED="1599733537215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$sub_sum.coverage" NAME="sub_sum Coverage Results" MODIFIED="1608028382823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$two_sum.coverage" NAME="two_sum Coverage Results" MODIFIED="1619612690758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$aliexpress.coverage" NAME="aliexpress Coverage Results" MODIFIED="1602729023442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
+    <SUITE FILE_PATH="coverage/alg$odd_sum.coverage" NAME="odd_sum Coverage Results" MODIFIED="1694068322969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$Newton.coverage" NAME="Newton Coverage Results" MODIFIED="1699346767697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$gmm.coverage" NAME="gmm Coverage Results" MODIFIED="1594007711450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cluster" />
     <SUITE FILE_PATH="coverage/alg$word2vec__2_.coverage" NAME="word2vec (2) Coverage Results" MODIFIED="1595416741964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/embedding/word2vec" />
-    <SUITE FILE_PATH="coverage/alg$parent_node.coverage" NAME="parent_node Coverage Results" MODIFIED="1598150263934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1608092866440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$parent_node.coverage" NAME="parent_node Coverage Results" MODIFIED="1705580820487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1643449984366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nn" />
+    <SUITE FILE_PATH="coverage/alg$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1705384368568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$huffuman_tree.coverage" NAME="huffuman_tree Coverage Results" MODIFIED="1594905021060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1563940557193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$b_tree.coverage" NAME="b_tree Coverage Results" MODIFIED="1564489192351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$maxsum.coverage" NAME="maxsum Coverage Results" MODIFIED="1598343443357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$max_hp.coverage" NAME="max_hp Coverage Results" MODIFIED="1593745347943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
-    <SUITE FILE_PATH="coverage/alg$ruijiao.coverage" NAME="ruijiao Coverage Results" MODIFIED="1611487110981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$ruijiao.coverage" NAME="ruijiao Coverage Results" MODIFIED="1705551976853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$quick_mi.coverage" NAME="quick_mi Coverage Results" MODIFIED="1630416992808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$trademark.coverage" NAME="trademark Coverage Results" MODIFIED="1612948463026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
-    <SUITE FILE_PATH="coverage/alg$min_diff.coverage" NAME="min_diff Coverage Results" MODIFIED="1608033615943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$house_tax.coverage" NAME="house_tax Coverage Results" MODIFIED="1705369922637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/script" />
+    <SUITE FILE_PATH="coverage/alg$min_diff.coverage" NAME="min_diff Coverage Results" MODIFIED="1705579098846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$gupiao.coverage" NAME="gupiao Coverage Results" MODIFIED="1600236135959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$selenium_shop_test.coverage" NAME="selenium_shop_test Coverage Results" MODIFIED="1618996872729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
+    <SUITE FILE_PATH="coverage/alg$max_seq_cat.coverage" NAME="max_seq_cat Coverage Results" MODIFIED="1705572754821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$word2vec__1_.coverage" NAME="word2vec (1) Coverage Results" MODIFIED="1594974813382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/word2vec" />
-    <SUITE FILE_PATH="coverage/alg$catalan.coverage" NAME="catalan Coverage Results" MODIFIED="1609308500613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$sqrt.coverage" NAME="sqrt Coverage Results" MODIFIED="1596458810368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$catalan.coverage" NAME="catalan Coverage Results" MODIFIED="1705401180443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$pdd.coverage" NAME="pdd Coverage Results" MODIFIED="1611740267567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/pdd_yangkeduo_spider" />
+    <SUITE FILE_PATH="coverage/alg$sqrt.coverage" NAME="sqrt Coverage Results" MODIFIED="1699346672442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$huffuman.coverage" NAME="huffuman Coverage Results" MODIFIED="1563936996659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$knn.coverage" NAME="knn Coverage Results" MODIFIED="1593744780092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
+    <SUITE FILE_PATH="coverage/alg$knn.coverage" NAME="knn Coverage Results" MODIFIED="1699349447614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
+    <SUITE FILE_PATH="coverage/alg$pai_random.coverage" NAME="pai_random Coverage Results" MODIFIED="1673422890592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_p" />
+    <SUITE FILE_PATH="coverage/alg$tree.coverage" NAME="tree Coverage Results" MODIFIED="1705559879121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$pdd__1_.coverage" NAME="pdd (1) Coverage Results" MODIFIED="1611821628136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/pdd" />
     <SUITE FILE_PATH="coverage/alg$heap_sort.coverage" NAME="heap_sort Coverage Results" MODIFIED="1593744345515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/alg$num_sum_seq.coverage" NAME="num_sum_seq Coverage Results" MODIFIED="1607259576650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$num_sum_seq.coverage" NAME="num_sum_seq Coverage Results" MODIFIED="1705547185920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$amazon.coverage" NAME="amazon Coverage Results" MODIFIED="1600229305488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/amazon" />
     <SUITE FILE_PATH="coverage/alg$kefu_sugg.coverage" NAME="kefu_sugg Coverage Results" MODIFIED="1609744704637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/taobao" />
     <SUITE FILE_PATH="coverage/alg$selenuim.coverage" NAME="selenuim Coverage Results" MODIFIED="1598847115303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$red_black_tree.coverage" NAME="red_black_tree Coverage Results" MODIFIED="1564583128469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$taobao_cat.coverage" NAME="taobao_cat Coverage Results" MODIFIED="1604830574956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/taobao" />
-    <SUITE FILE_PATH="coverage/alg$sum_0.coverage" NAME="sum_0 Coverage Results" MODIFIED="1619696392291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$sum_0.coverage" NAME="sum_0 Coverage Results" MODIFIED="1705580280627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$tree_sum.coverage" NAME="tree Coverage Results" MODIFIED="1602830232964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$ball_tree.coverage" NAME="ball_tree Coverage Results" MODIFIED="1593755179377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$sub_set.coverage" NAME="sub_set Coverage Results" MODIFIED="1594963760070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
-    <SUITE FILE_PATH="coverage/alg$bracket.coverage" NAME="bracket Coverage Results" MODIFIED="1612428421492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$path.coverage" NAME="path Coverage Results" MODIFIED="1618143135209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$bracket.coverage" NAME="bracket Coverage Results" MODIFIED="1705384493161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$taobao_shop.coverage" NAME="taobao_shop Coverage Results" MODIFIED="1612409029259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
+    <SUITE FILE_PATH="coverage/alg$longest_k_substring.coverage" NAME="longest_k_substring Coverage Results" MODIFIED="1694069501229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$twitter.coverage" NAME="twitter Coverage Results" MODIFIED="1601439331745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
-    <SUITE FILE_PATH="coverage/alg$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1604048913445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/alg$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1593744309082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/alg$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1668513112302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/alg$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1700535606961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/alg$em.coverage" NAME="em Coverage Results" MODIFIED="1593766005791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
     <SUITE FILE_PATH="coverage/alg$transformer_model.coverage" NAME="transformer_model Coverage Results" MODIFIED="1596029126770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/embedding/bert" />
     <SUITE FILE_PATH="coverage/alg$ins.coverage" NAME="ins Coverage Results" MODIFIED="1609383657924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
+    <SUITE FILE_PATH="coverage/alg$gen_sorted_num.coverage" NAME="gen_sorted_num Coverage Results" MODIFIED="1705462081155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$manmanbuy.coverage" NAME="manmanbuy Coverage Results" MODIFIED="1597385234748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl" />
     <SUITE FILE_PATH="coverage/alg$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1595389477074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
     <SUITE FILE_PATH="coverage/alg$shangbiao.coverage" NAME="trademark Coverage Results" MODIFIED="1601299196152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work/crawl/selenuim" />
     <SUITE FILE_PATH="coverage/alg$min_speed.coverage" NAME="min_speed Coverage Results" MODIFIED="1611481996583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$changes.coverage" NAME="changes Coverage Results" MODIFIED="1628687560108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$pai.coverage" NAME="pai Coverage Results" MODIFIED="1673422524802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_p" />
     <SUITE FILE_PATH="coverage/alg$walk.coverage" NAME="walk Coverage Results" MODIFIED="1611582300643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$avl_tree.coverage" NAME="avl_tree Coverage Results" MODIFIED="1564566368884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
     <SUITE FILE_PATH="coverage/alg$temp.coverage" NAME="temp Coverage Results" MODIFIED="1612688990362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
-    <SUITE FILE_PATH="coverage/alg$max_cut.coverage" NAME="max_cut Coverage Results" MODIFIED="1613817477647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$max_cut.coverage" NAME="max_cut Coverage Results" MODIFIED="1705467062387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$water_area.coverage" NAME="water_area Coverage Results" MODIFIED="1564134631575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$heapsort.coverage" NAME="heapsort Coverage Results" MODIFIED="1563938596612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$b_plus_tree.coverage" NAME="b_plus_tree Coverage Results" MODIFIED="1564553192874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/structure" />
+    <SUITE FILE_PATH="coverage/alg$max_multi_value.coverage" NAME="max_multi_value Coverage Results" MODIFIED="1705572611055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$k_means_plus_plus.coverage" NAME="k_means_plus_plus Coverage Results" MODIFIED="1593696307468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cluster" />
-    <SUITE FILE_PATH="coverage/alg$max_increase_seq.coverage" NAME="max_increase_seq Coverage Results" MODIFIED="1629727788532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$max_increase_seq.coverage" NAME="max_increase_seq Coverage Results" MODIFIED="1700535996799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
+    <SUITE FILE_PATH="coverage/alg$topk.coverage" NAME="topk Coverage Results" MODIFIED="1639040128829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
     <SUITE FILE_PATH="coverage/alg$change.coverage" NAME="change Coverage Results" MODIFIED="1598343420657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classic" />
   </component>
 </project>
